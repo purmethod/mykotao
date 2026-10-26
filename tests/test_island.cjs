@@ -26,15 +26,15 @@ class Element {
 function setup() {
   const names = ['eat', 'relax', 'move', 'explore', 'connect', 'stay', 'essentials', 'whats-next'];
   const dial = new Element('island-dial'), center = new Element('dial-center');
-  const picker = new Element('picker-window'), opener = new Element('dial-open');
-  center.parentElement = dial; picker.parentElement = center; opener.parentElement = center;
+  const picker = new Element('picker-window');
+  center.parentElement = dial; picker.parentElement = center;
   const options = names.map(n => { const e = new Element(n + '-option', n.toUpperCase()); e.dataset.category = n; e.parentElement = dial; return e; });
   const rows = names.map((n, i) => { const e = new Element('picker-option-' + i, n); e.dataset.pickerIndex = String(i); e.parentElement = picker; return e; });
   const panels = names.map(n => { const e = new Element(n); e.heading = new Element(n + '-title'); return e; });
   const home = new Element('island'), back = new Element('back-to-wheel');
   const byid = Object.fromEntries([...panels, home].map(e => [e.id, e]));
   dial.querySelectorAll = () => options; picker.querySelectorAll = () => rows;
-  dial.querySelector = s => s === '.picker-window' ? picker : opener;
+  dial.querySelector = s => s === '.picker-window' ? picker : null;
   dial.getBoundingClientRect = () => ({left: 0, top: 0, width: 400, height: 400});
   let capture = false;
   dial.setPointerCapture = () => { capture = true; };
@@ -62,7 +62,7 @@ function setup() {
     for (const [id, fn] of [...rafs]) { rafs.delete(id); fn(now); }
   }
   const selected = () => Number(picker.attrs['aria-activedescendant'].split('-').at(-1));
-  return {dial, picker, opener, rows, options, panels, location, handlers, selected, fire, flush, pause: () => { now += 200; }};
+  return {dial, picker, rows, options, panels, location, handlers, selected, fire, flush, pause: () => { now += 200; }};
 }
 {
   const t = setup();
@@ -95,7 +95,7 @@ function setup() {
   assert.equal(t.selected(), 5); assert.equal(t.location.hash, '');
   t.fire('click', t.rows[5], {detail: 1}); // Synthetic click after drag.
   assert.equal(t.location.hash, '');
-  t.fire('pointerdown', t.opener); t.fire('click', t.opener, {detail: 1});
+  t.fire('pointerdown', t.rows[5]); t.fire('pointerup', t.rows[5]);
   assert.equal(t.location.hash, '#stay', 'A fresh confirmation tap must work immediately');
   assert.equal(t.panels.filter(p => !p.hidden).length, 1);
 }

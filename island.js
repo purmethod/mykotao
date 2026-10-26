@@ -5,7 +5,6 @@
   const panels = [...document.querySelectorAll('.category-panel')];
   const picker = dial.querySelector('.picker-window');
   const rows = [...picker.querySelectorAll('[data-picker-index]')];
-  const opener = dial.querySelector('.dial-open');
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   const count = options.length, step = 360 / count, rowHeight = 34;
   const wrap = value => ((value % count) + count) % count;
@@ -34,8 +33,6 @@
       row.setAttribute('aria-selected', String(i === selected));
     });
     picker.setAttribute('aria-activedescendant', rows[selected].id);
-    opener.setAttribute('aria-label', 'Open ' + options[selected].textContent + ' category');
-    opener.setAttribute('aria-controls', options[selected].dataset.category);
   }
   function stop() {
     cancelAnimationFrame(frame); frame = 0;
@@ -95,10 +92,9 @@
     }
   }
   // Capture the actual gesture: circular outside, vertical inside. Neither gesture
-  // navigates away; the selected row or OPEN confirms the visitor's choice.
+  // navigates away; a tap on the selected row confirms the visitor's choice.
   dial.addEventListener('pointerdown', event => {
     if (event.button !== 0 || !event.isPrimary || pointer || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
-    if (event.target.closest('.dial-open')) { ignoreClickUntil = 0; return; }
     stop();
     const bounds = dial.getBoundingClientRect();
     const cx = bounds.left + bounds.width / 2, cy = bounds.top + bounds.height / 2;
@@ -149,11 +145,6 @@
   dial.addEventListener('dragstart', event => event.preventDefault());
   dial.addEventListener('click', event => {
     if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
-    if (event.target.closest('.dial-open')) {
-      event.preventDefault();
-      if (event.detail === 0 || Date.now() >= ignoreClickUntil) open(selected);
-      return;
-    }
     event.preventDefault();
     if (event.detail === 0 || Date.now() >= ignoreClickUntil) tap(event.target);
   });
