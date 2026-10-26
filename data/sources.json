@@ -1,0 +1,20 @@
+[
+  {
+    "id": "escobar", "name": "Koh Tao Escobar", "kind": "organizer",
+    "url": "https://www.kohtaoescobar.com/buy", "parser": "escobar",
+    "hosts": ["www.kohtaoescobar.com", "kohtaoescobar.com"],
+    "location": "Escobar, Koh Tao", "linkPattern": "/buy/", "maxPages": 1
+  },
+  {
+    "id": "koh-tao-yoga", "name": "Koh Tao Yoga", "kind": "organizer",
+    "url": "https://kohtaoyoga.com/retreats/", "parser": "jsonld",
+    "seeds": ["https://kohtaoyoga.com/retreats/yoga-retreat-schedule-2027/"],
+    "hosts": ["kohtaoyoga.com", "www.kohtaoyoga.com"],
+    "linkPattern": "/retreats/|/blogs/.*(retreat|workshop)", "maxPages": 8
+  },
+  {
+    "id": "phangan-events", "name": "phangan.events · Koh Tao", "kind": "calendar",
+    "url": "https://phangan.events/event-type-2/koh-tao/", "parser": "jsonld",
+    "hosts": ["phangan.events"], "linkPattern": "/events/", "maxPages": 8
+  }
+]
