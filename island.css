@@ -54,3 +54,6 @@ footer { text-align: center; padding: 6px 24px 28px; }
 @media (min-width: 800px) { .island-home { padding-top: 24px; } h1 { width: 185px; } .island-dial { margin-top: 10px; } .dial-option { font-size: 11px; letter-spacing: .13em; } }
 @media (max-width: 360px) { .island-home { padding-inline: 10px; } h1 { width: 145px; } .tagline { font-size: 9px; letter-spacing: .2em; } .dial-option { font-size: 9px; letter-spacing: .04em; } .dial-center { gap: 12px; } .dial-kicker { font-size: 7px; } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; scroll-behavior: auto !important; } }
+
+.stacked-label { display: inline-block; line-height: 1.1; white-space: normal; text-align: center; }
+.picker-option[data-picker-index="7"] { display: flex; align-items: center; justify-content: center; }
