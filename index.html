@@ -26,11 +26,20 @@
       <nav class="island-dial" aria-label="Island categories">
         <div class="dial-ring" aria-hidden="true"></div>
         <div class="dial-marker" aria-hidden="true"></div>
-        <button class="dial-center" type="button" aria-label="Open Explore category" aria-controls="explore">
-          <span class="dial-kicker">FIND YOUR ISLAND</span>
-          <span id="dial-current">EXPLORE</span>
-          <span class="dial-open">OPEN ↗</span>
-        </button>
+        <div class="dial-center">
+          <div class="picker-window" role="listbox" aria-label="Choose an island category. Swipe up or down, or use the arrow keys." aria-activedescendant="picker-option-3" tabindex="0">
+            <span class="picker-selection" aria-hidden="true"></span>
+            <div class="picker-option" id="picker-option-0" role="option" aria-selected="false" data-picker-index="0">EAT</div>
+            <div class="picker-option" id="picker-option-1" role="option" aria-selected="false" data-picker-index="1">RELAX</div>
+            <div class="picker-option" id="picker-option-2" role="option" aria-selected="false" data-picker-index="2">MOVE</div>
+            <div class="picker-option" id="picker-option-3" role="option" aria-selected="true" data-picker-index="3">EXPLORE</div>
+            <div class="picker-option" id="picker-option-4" role="option" aria-selected="false" data-picker-index="4">CONNECT</div>
+            <div class="picker-option" id="picker-option-5" role="option" aria-selected="false" data-picker-index="5">STAY</div>
+            <div class="picker-option" id="picker-option-6" role="option" aria-selected="false" data-picker-index="6">ESSENTIALS</div>
+            <div class="picker-option" id="picker-option-7" role="option" aria-selected="false" data-picker-index="7">WHAT’S NEXT</div>
+          </div>
+          <button class="dial-open" type="button" aria-label="Open Explore category" aria-controls="explore">OPEN ↗</button>
+        </div>
         <a class="dial-option" data-category="eat" href="#eat" style="--x:50.000%;--y:11.000%" aria-controls="eat">EAT</a>
         <a class="dial-option" data-category="relax" href="#relax" style="--x:77.577%;--y:22.423%" aria-controls="relax">RELAX</a>
         <a class="dial-option" data-category="move" href="#move" style="--x:89.000%;--y:50.000%" aria-controls="move">MOVE</a>
@@ -40,7 +49,7 @@
         <a class="dial-option" data-category="essentials" href="#essentials" style="--x:11.000%;--y:50.000%" aria-controls="essentials">ESSENTIALS</a>
         <a class="dial-option" data-category="whats-next" href="#whats-next" style="--x:22.423%;--y:22.423%" aria-controls="whats-next">WHAT’S NEXT</a>
       </nav>
-      <p class="dial-hint">SCROLL · SWIPE · TAP</p>
+      <p class="dial-hint">TURN THE RING · ROLL THE CENTRE</p>
       <a class="next-link" href="/whats-next">WHAT’S NEXT IN KOH TAO ↗</a>
     </section>
     <div class="category-content">
