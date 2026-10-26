@@ -4,7 +4,7 @@
   const list = document.getElementById('events');
   const status = document.getElementById('feed-status');
   const sourceList = document.getElementById('sources');
-  const types = {'parties':'PARTIES','raves':'RAVES','retreats':'RETREATS','yoga-retreats':'YOGA RETREATS','workshops':'WORKSHOPS','live-music':'LIVE MUSIC','community':'COMMUNITY'};
+  const types = {'parties':'PARTIES','raves':'RAVES','retreats':'RETREATS','yoga-retreats':'YOGA RETREATS','workshops':'WORKSHOPS','live-music':'LIVE MUSIC','community':'COMMUNITY','wellness':'YOGA & WELLNESS','sports':'SPORTS & ADVENTURE','conservation':'CONSERVATION'};
   const requestedCategory = new URLSearchParams(location.search).get('category');
   if (requestedCategory === 'all' || Object.hasOwn(types, requestedCategory)) category.value = requestedCategory;
   const dateFormat = new Intl.DateTimeFormat('en-GB', {timeZone:'Asia/Bangkok',day:'numeric',month:'short',year:'numeric'});
@@ -68,8 +68,11 @@
         }
         date.append(node('span',times,'event-time'));
       }
+      if (e.dateOnly) date.append(node('span','TIME TO BE CONFIRMED','event-time'));
       const body = node('div');
       body.append(node('p',types[e.category] || 'EVENT','event-type'),node('h2',e.title),node('p',e.location,'event-location'),node('p',e.summary,'event-description'));
+      if (e.schedule) body.append(node('p',e.schedule==='weekly-program'?'WEEKLY PROGRAM · CONFIRM WITH VENUE':'PUBLISHED RECURRING EVENT','event-type'));
+      if (e.note) body.append(node('p',e.note,'event-description'));
       if (e.stale || Date.now()-Date.parse(e.checkedAt)>48*3600000) body.append(node('p','Last-known listing. Check the original for changes.','stale'));
       const link = node('a','VIEW ORIGINAL','source-link');
       link.href = safeURL(e.url); link.target='_blank'; link.rel='noopener noreferrer';
@@ -98,7 +101,9 @@
       const url = safeURL(source.url);
       if (url) { link.href=url; link.target='_blank'; link.rel='noopener noreferrer'; item.append(link); }
       else item.textContent=source.name;
+      if (source.status==='ok') item.append(document.createTextNode(' · '+source.eventsFound+' upcoming listings'));
       if (source.status!=='ok') item.append(document.createTextNode(' · latest check incomplete'));
+      if (source.coverage) item.append(node('p',source.coverage));
       sourceList.append(item);
     }
     render();

@@ -1,20 +1,161 @@
 [
   {
-    "id": "escobar", "name": "Koh Tao Escobar", "kind": "organizer",
-    "url": "https://www.kohtaoescobar.com/buy", "parser": "escobar",
-    "hosts": ["www.kohtaoescobar.com", "kohtaoescobar.com"],
-    "location": "Escobar, Koh Tao", "linkPattern": "/buy/", "maxPages": 1
+    "id": "escobar",
+    "name": "Koh Tao Escobar",
+    "kind": "organizer",
+    "url": "https://www.kohtaoescobar.com/buy",
+    "parser": "escobar",
+    "hosts": [
+      "www.kohtaoescobar.com",
+      "kohtaoescobar.com"
+    ],
+    "location": "Escobar, Koh Tao",
+    "linkPattern": "/buy/",
+    "maxPages": 1
   },
   {
-    "id": "koh-tao-yoga", "name": "Koh Tao Yoga", "kind": "organizer",
-    "url": "https://kohtaoyoga.com/retreats/", "parser": "jsonld",
-    "seeds": ["https://kohtaoyoga.com/retreats/yoga-retreat-schedule-2027/"],
-    "hosts": ["kohtaoyoga.com", "www.kohtaoyoga.com"],
-    "linkPattern": "/retreats/|/blogs/.*(retreat|workshop)", "maxPages": 8
+    "id": "koh-tao-yoga",
+    "name": "Koh Tao Yoga",
+    "kind": "organizer",
+    "url": "https://kohtaoyoga.com/retreats/",
+    "parser": "jsonld",
+    "seeds": [
+      "https://kohtaoyoga.com/retreats/yoga-retreat-schedule-2027/"
+    ],
+    "hosts": [
+      "kohtaoyoga.com",
+      "www.kohtaoyoga.com"
+    ],
+    "linkPattern": "/retreats/|/blogs/.*(retreat|workshop)",
+    "maxPages": 8
   },
   {
-    "id": "phangan-events", "name": "phangan.events · Koh Tao", "kind": "calendar",
-    "url": "https://phangan.events/event-type-2/koh-tao/", "parser": "jsonld",
-    "hosts": ["phangan.events"], "linkPattern": "/events/", "maxPages": 8
+    "id": "phangan-events",
+    "name": "phangan.events \u00b7 Koh Tao",
+    "kind": "calendar",
+    "url": "https://phangan.events/event-type-2/koh-tao/",
+    "parser": "jsonld",
+    "hosts": [
+      "phangan.events"
+    ],
+    "linkPattern": "/events/",
+    "maxPages": 40,
+    "budgetSeconds": 300,
+    "seeds": [
+      "https://phangan.events/koh-tao/"
+    ]
+  },
+  {
+    "id": "jungle-calendar",
+    "name": "Jungle Koh Tao \u00b7 Island party calendar",
+    "kind": "calendar",
+    "url": "https://junglekohtao.com/party-calendar/",
+    "parser": "jungle",
+    "hosts": [
+      "junglekohtao.com"
+    ],
+    "maxPages": 1,
+    "coverage": "Explicit party dates published through 2027; secondary calendar"
+  },
+  {
+    "id": "goodtime",
+    "name": "Goodtime Adventures & Beach Club",
+    "kind": "organizer",
+    "url": "https://goodtimethailand.com/events/",
+    "dataUrl": "https://goodtimethailand.com/?gec_ical=1",
+    "parser": "ical",
+    "hosts": [
+      "goodtimethailand.com"
+    ],
+    "maxPages": 1,
+    "location": "Goodtime Beach Club, Koh Tao",
+    "allowEmpty": true,
+    "coverage": "Official dated events and calendar recurrence, only until each published end date"
+  },
+  {
+    "id": "blue-chitta",
+    "name": "Blue Chitta \u00b7 Classes & activities",
+    "kind": "organizer",
+    "url": "https://bluechitta.com/schedule/",
+    "parser": "blue-chitta",
+    "hosts": [
+      "bluechitta.com"
+    ],
+    "maxPages": 5,
+    "allowEmpty": true,
+    "coverage": "Dated booking schedule; rolling four-week discovery"
+  },
+  {
+    "id": "todo-today",
+    "name": "Todo Today \u00b7 Koh Tao",
+    "kind": "calendar",
+    "url": "https://todo.today/",
+    "dataUrl": "https://todo.today/api/todo-today/v1/events?channel=koh-tao",
+    "parser": "todo-today",
+    "hosts": [
+      "todo.today"
+    ],
+    "maxPages": 15,
+    "allowEmpty": true,
+    "coverage": "Published Koh Tao channel, including local studios and venues; rolling two-week discovery"
+  },
+  {
+    "id": "choppers",
+    "name": "Choppers \u00b7 Pub crawl, open mic & quiz",
+    "kind": "organizer",
+    "url": "https://www.chopperskohtao.com/events-on-koh-tao/",
+    "parser": "weekly-page",
+    "hosts": [
+      "www.chopperskohtao.com",
+      "chopperskohtao.com"
+    ],
+    "location": "Choppers, Sairee, Koh Tao",
+    "maxPages": 1,
+    "coverage": "Official weekly program, next four weeks; reconfirm with venue"
+  },
+  {
+    "id": "black-turtle",
+    "name": "Black Turtle Conservation",
+    "kind": "organizer",
+    "url": "https://www.blackturtleconservation.com/community/",
+    "parser": "weekly-page",
+    "hosts": [
+      "www.blackturtleconservation.com",
+      "blackturtleconservation.com"
+    ],
+    "location": "Koh Tao \u2014 meeting point with Black Turtle Conservation",
+    "maxPages": 1,
+    "coverage": "Official weekly cleanup and monthly community talk, next four weeks; weather dependent"
+  },
+  {
+    "id": "hii-festival",
+    "name": "Hii Festival \u00b7 Official calendar",
+    "kind": "organizer",
+    "url": "https://hiifestivalkohtao.com/",
+    "dataUrl": "https://sienna-bison-266706.hostingersite.com/events",
+    "parser": "hii",
+    "hosts": [
+      "sienna-bison-266706.hostingersite.com",
+      "www.eventpop.me"
+    ],
+    "maxPages": 10,
+    "allowEmpty": true,
+    "coverage": "Official festival feed and linked Eventpop calendar exports; disputed times are flagged",
+    "location": "Hii Festival, Koh Tao"
+  },
+  {
+    "id": "entrix",
+    "name": "Entrix \u00b7 Koh Tao events",
+    "kind": "calendar",
+    "url": "https://www.entrix.club/th/koh-tao/events",
+    "parser": "jsonld",
+    "hosts": [
+      "www.entrix.club",
+      "entrix.club"
+    ],
+    "linkPattern": "^/th/koh-tao/events/",
+    "maxPages": 30,
+    "budgetSeconds": 240,
+    "coverage": "Dated Koh Tao event listings and original ticket links"
   }
 ]

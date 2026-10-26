@@ -1,13 +1,13 @@
 name: Refresh Koh Tao events
 on:
   schedule:
-    - cron: '17 1 * * *'
+    - cron: '17 */6 * * *'
   workflow_dispatch:
   push:
     branches: [main]
     paths:
-      - 'scripts/collect_events.py'
-      - 'tests/test_events.py'
+      - 'scripts/*.py'
+      - 'tests/test*.py'
       - 'data/sources.json'
       - '.github/workflows/refresh-events.yml'
 permissions:

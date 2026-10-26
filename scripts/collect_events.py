@@ -18,11 +18,16 @@ from urllib.error import HTTPError
 from urllib.robotparser import RobotFileParser
 from zoneinfo import ZoneInfo
 
+try:
+    from scripts.event_adapters import ADAPTERS
+except ModuleNotFoundError:
+    from event_adapters import ADAPTERS
+
 ROOT = Path(__file__).resolve().parents[1]
 TZ = ZoneInfo("Asia/Bangkok")
 AGENT = "MYKOTAOEvents/1.0 (+https://mykotao.com)"
 MAX_BYTES = 3_000_000
-CATEGORIES = ["parties", "raves", "retreats", "yoga-retreats", "workshops", "live-music", "community"]
+CATEGORIES = ["parties", "raves", "retreats", "yoga-retreats", "workshops", "live-music", "community", "wellness", "sports", "conservation"]
 
 def plain(value):
     return re.sub(r"\s+", " ", unescape(re.sub(r"<[^>]*>", " ", str(value or "")))).strip()
@@ -117,6 +122,12 @@ def classify(title, description=""):
         return "live-music"
     if re.search(r"\bparty\b|\bparties\b|\bfestival\b|\bdj\b|\bnightclub\b", s):
         return "parties"
+    if re.search(r"clean.?up|conservation|save our seas|ocean insights", s):
+        return "conservation"
+    if re.search(r"yoga|meditation|breathwork|sound bath|yin|ashtanga|vinyasa|hatha", s):
+        return "wellness"
+    if re.search(r"freediv|snorkel|muay thai|climbing|running", s):
+        return "sports"
     return "community"
 
 def normalize(raw, source, page_url, now):
@@ -156,8 +167,8 @@ def normalize(raw, source, page_url, now):
     url = safe_url(raw.get("url") or page_url, page_url)
     if not url:
         return None
-    category = classify(title, description)
-    labels = {"parties": "Party", "raves": "Electronic music event", "retreats": "Retreat", "yoga-retreats": "Yoga retreat", "workshops": "Workshop", "live-music": "Live music", "community": "Community event"}
+    category = classify(title, description) if "retreat" in title.lower() else raw.get("category") if raw.get("category") in CATEGORIES else classify(title, description)
+    labels = {"parties": "Party", "raves": "Electronic music event", "retreats": "Retreat", "yoga-retreats": "Yoga retreat", "workshops": "Workshop", "live-music": "Live music", "community": "Community event", "wellness": "Wellness session", "sports": "Activity", "conservation": "Conservation event"}
     # Original factual microcopy rather than copying/promoting a venue's marketing text.
     days = (end.date() - start.date()).days + 1 if end else 1
     duration = f"{days}-day " if days > 1 and category in ("retreats", "yoga-retreats") else ""
@@ -169,6 +180,7 @@ def normalize(raw, source, page_url, now):
         "dateOnly": "T" not in str(raw.get("startDate")),
         "location": venue, "summary": summary[:180], "url": url,
         "sourceId": source["id"], "sourceName": source["name"], "sourceKind": source["kind"],
+        "schedule": raw.get("schedule"), "note": plain(raw.get("note"))[:180] or None,
         "checkedAt": now.isoformat(), "personallyTested": False
     }
 
@@ -213,7 +225,7 @@ class Reader:
     def request(self, url):
         if urlsplit(url).hostname not in self.source["hosts"]:
             raise ValueError("Host outside configured source")
-        with self.opener.open(Request(url, headers={"User-Agent": AGENT, "Accept": "text/html,application/json"}), timeout=15) as r:
+        with self.opener.open(Request(url, headers={"User-Agent": AGENT, "Accept": "text/html,application/json,text/calendar"}), timeout=15) as r:
             data = r.read(MAX_BYTES + 1)
             if len(data) > MAX_BYTES:
                 raise ValueError("Source exceeds size limit")
@@ -243,11 +255,13 @@ class Reader:
 
 def collect_source(source, now, fixtures=None):
     reader = Reader(source)
-    queue = [source["url"]] + source.get("seeds", [])
+    root_url = source.get("dataUrl", source["url"])
+    queue = [root_url] + source.get("seeds", [])
     seen, results, errors = set(), [], []
     root_success = False
     parsed_total = 0
-    while queue and len(seen) < source.get("maxPages", 6):
+    deadline = time.monotonic() + source.get("budgetSeconds", 240)
+    while queue and time.monotonic() < deadline and len(seen) < source.get("maxPages", 6):
         url = queue.pop(0)
         if url in seen:
             continue
@@ -255,45 +269,88 @@ def collect_source(source, now, fixtures=None):
         try:
             if fixtures:
                 files = {"escobar": "escobar.html", "koh-tao-yoga": "yoga.html", "phangan-events": "phangan.html"}
-                html = (fixtures / files[source["id"]]).read_text()
+                html = (fixtures / files.get(source["id"], source["id"] + ".html")).read_text()
             else:
                 html = reader.get(url)
             page = Page(html)
-            if url == source["url"]:
+            if url == root_url:
                 root_success = True
-            raw = escobar_events(page, source) if source["parser"] == "escobar" else list(walk_events(page.schemas))
+            extra_links = []
+            if source["parser"] in ADAPTERS:
+                raw, extra_links = ADAPTERS[source["parser"]](html, source, url, now)
+            else:
+                raw = escobar_events(page, source) if source["parser"] == "escobar" else list(walk_events(page.schemas))
             parsed_total += len(raw)
             for item in raw:
                 event = normalize(item, source, url, now)
                 if event:
                     results.append(event)
             if not fixtures:
-                for href in page.links:
+                for href in extra_links + (page.links if source.get("linkPattern") else []):
                     link = safe_url(href, url)
-                    if link and urlsplit(link).hostname in source["hosts"] and re.search(source["linkPattern"], urlsplit(link).path) and link not in seen and link not in queue:
+                    if link and urlsplit(link).hostname in source["hosts"] and (href in extra_links or re.search(source["linkPattern"], urlsplit(link).path)) and link not in seen and link not in queue:
                         queue.append(link)
             else:
                 break
         except Exception as e:
             errors.append({"url": url, "error": str(e)[:180]})
-    if root_success and not parsed_total:
+    if queue and time.monotonic() >= deadline:
+        errors.append({"url": root_url, "error": "Collection time budget reached"})
+    if root_success and not parsed_total and not source.get("allowEmpty"):
         errors.append({"url": source["url"], "error": "No structured events found; source may need a parser update"})
     return results, {"id": source["id"], "name": source["name"], "url": source["url"],
         "kind": source["kind"], "status": "ok" if root_success and not errors else "partial" if root_success else "error",
-        "pagesChecked": len(seen), "eventsFound": len(results), "errors": errors,
+        "coverage": source.get("coverage", "Published event dates"), "pagesChecked": len(seen), "eventsFound": len(results), "errors": errors,
         "checkedAt": now.isoformat(), "rootSuccess": root_success}
+
+def series(event):
+    title, venue = event["title"].lower(), event["location"].lower()
+    if "hii festival" in title:
+        return "hii"
+    if "secret party" in title or "secret jungle party" in title:
+        return "secret"
+    if "leo beach" in title or "lbmf" in title:
+        return "leo"
+    if "escobar" in venue and ("jungle party" in title or re.search(r"night of (?:the )?wild", title)):
+        return "jungle"
+    if "pub crawl" in title:
+        return "pub-crawl"
+    return None
+
+
+def matching_title(value):
+    value = re.split(r"\s+(?:w/|with)\s+", value.lower())[0]
+    value = value.replace("candlelight", "candlelit")
+    if value.strip() != "yoga":
+        value = re.sub(r"\byoga\b", "", value)
+    return re.sub(r"[^a-z0-9]+", " ", value).strip()
+
+
+def matching_place(value):
+    value = value.lower()
+    if "blue chitta" in value:
+        return "blue-chitta"
+    if "ocean sound" in value:
+        return "ocean-sound"
+    return re.sub(r"[^a-z0-9]+", "", re.sub(r"\bko[h]?\s*tao\b", "", value))
+
 
 def deduplicate(events):
     kept = []
-    # Prefer direct organizers when matching a calendar's copy of an event.
-    for event in sorted(events, key=lambda e: (e["sourceKind"] != "organizer", e["start"])):
+    # Dated organizer listings win over weekly programs and third-party copies.
+    priority = lambda e: (e["sourceKind"] != "organizer", e.get("schedule") == "weekly-program", e.get("dateOnly", False), e["start"])
+    for event in sorted(events, key=priority):
         duplicate = None
         for old in kept:
             same_day = old["start"][:10] == event["start"][:10]
-            same_place = old["location"].casefold() == event["location"].casefold()
-            a, b = old["title"].lower(), event["title"].lower()
-            similar = a in b or b in a or SequenceMatcher(None, a, b).ratio() > .88
-            if same_day and similar and (same_place or old["url"] == event["url"]):
+            same_place = matching_place(old["location"]) == matching_place(event["location"])
+            a, b = matching_title(old["title"]), matching_title(event["title"])
+            similar = a == b or (same_place and a in {"1 day discovery", "freediving discovery"} and b in {"1 day discovery", "freediving discovery"}) or SequenceMatcher(None, a, b).ratio() > .88
+            same_series = series(old) is not None and series(old) == series(event)
+            same_time = old.get("dateOnly") or event.get("dateOnly") or old["start"] == event["start"]
+            # A dated direct class can correct a copied title/AM-PM error. Distinct sessions from one source remain.
+            organizer_copy = old["sourceKind"] == "organizer" and event["sourceKind"] == "calendar"
+            if same_day and (same_series or (similar and same_place and (same_time or organizer_copy))):
                 duplicate = old
                 break
         if duplicate:
@@ -306,7 +363,7 @@ def run(now=None, fixtures=None, output=None):
     sources = json.loads((ROOT / "data/sources.json").read_text())
     output = output or ROOT / "data/events.json"
     previous = json.loads(output.read_text()) if output.exists() else {"events": []}
-    batches = list(ThreadPoolExecutor(max_workers=3).map(lambda s: collect_source(s, now, fixtures), sources))
+    batches = list(ThreadPoolExecutor(max_workers=6).map(lambda s: collect_source(s, now, fixtures), sources))
     events, checks = [], []
     for found, check in batches:
         checks.append(check)
@@ -320,7 +377,7 @@ def run(now=None, fixtures=None, output=None):
                     old = dict(old, stale=True)
                     if not any(e["id"] == old["id"] for e in found):
                         events.append(old)
-    if not any(c["rootSuccess"] for c in checks):
+    if not any(c["status"] == "ok" for c in checks) and not any(found for found, _ in batches):
         raise RuntimeError("All sources failed; preserving previous event data")
     data = {"updatedAt": now.isoformat(), "timezone": "Asia/Bangkok", "horizonMonths": 12,
             "instagram": {"status": "not_connected"}, "sources": checks, "events": deduplicate(events)}
