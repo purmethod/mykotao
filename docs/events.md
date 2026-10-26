@@ -2,7 +2,7 @@
 
 ## Operating model
 
-The /whats-next page shows published events up to six calendar months ahead, with 3/6 month and category filters. Times use Asia/Bangkok. Every entry links to its source; automated discovery never marks an event personally tested.
+The /whats-next page shows published events for the next twelve calendar months in chronological order, with a category filter and no time-range selector. Times use Asia/Bangkok. Every entry links to its source; automated discovery never marks an event personally tested.
 
 data/sources.json is the explicit registry: Escobar's organizer schedule, Koh Tao Yoga retreat pages, and the Koh Tao calendar on phangan.events. This is bounded coverage, not an internet-wide or Instagram search.
 

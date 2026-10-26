@@ -151,7 +151,7 @@ def normalize(raw, source, page_url, now):
     if end and "T" in str(raw.get("endDate")) and end < now:
         return None
     last_day = (end or start).date()
-    if last_day < now.date() or start.date() > add_months(now, 6).date():
+    if last_day < now.date() or start.date() > add_months(now, 12).date():
         return None
     url = safe_url(raw.get("url") or page_url, page_url)
     if not url:
@@ -322,7 +322,7 @@ def run(now=None, fixtures=None, output=None):
                         events.append(old)
     if not any(c["rootSuccess"] for c in checks):
         raise RuntimeError("All sources failed; preserving previous event data")
-    data = {"updatedAt": now.isoformat(), "timezone": "Asia/Bangkok", "horizonMonths": 6,
+    data = {"updatedAt": now.isoformat(), "timezone": "Asia/Bangkok", "horizonMonths": 12,
             "instagram": {"status": "not_connected"}, "sources": checks, "events": deduplicate(events)}
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n")

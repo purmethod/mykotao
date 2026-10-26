@@ -1,7 +1,6 @@
 (() => {
   'use strict';
   const category = document.getElementById('category');
-  const horizon = document.getElementById('horizon');
   const list = document.getElementById('events');
   const status = document.getElementById('feed-status');
   const sourceList = document.getElementById('sources');
@@ -39,7 +38,7 @@
   function render() {
     list.replaceChildren();
     const today = dateKey(new Date());
-    const cutoff = lastDay(Number(horizon.value));
+    const cutoff = lastDay(12);
     const now = Date.now();
     const events = feed.events.filter(e => {
       const start = Date.parse(e.start), end = Date.parse(e.end || e.start), checked = Date.parse(e.checkedAt);
@@ -50,7 +49,7 @@
       return category.value === 'all' || e.category === category.value || (category.value === 'retreats' && e.category === 'yoga-retreats');
     }).sort((a,b) => Date.parse(a.start)-Date.parse(b.start));
     const old = Date.now()-Date.parse(feed.updatedAt)>48*3600000;
-    status.textContent = events.length+' EVENT'+(events.length===1?'':'S')+' · UPDATED '+dateFormat.format(new Date(feed.updatedAt))+(fallback?' · SAVED COPY':'')+(old?' · UPDATE DELAYED':'');
+    status.textContent = events.length+' EVENT'+(events.length===1?'':'S')+' · NEXT 12 MONTHS · UPDATED '+dateFormat.format(new Date(feed.updatedAt))+(fallback?' · SAVED COPY':'')+(old?' · UPDATE DELAYED':'');
     if (!events.length) {
       list.append(node('p','No upcoming events listed for this selection yet. Try another category or check back soon.','empty'));
       return;
@@ -104,7 +103,6 @@
     }
     render();
     category.addEventListener('change',render);
-    horizon.addEventListener('change',render);
   }
   init();
 })();

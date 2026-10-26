@@ -17,7 +17,13 @@ class EventTests(unittest.TestCase):
         self.assertIsNone(self.event(startDate="Next Friday"))
         self.assertIsNone(self.event(location=None))
         self.assertIsNone(self.event(startDate="2026-10-20", endDate="2026-10-21"))
-        self.assertIsNone(self.event(startDate="2027-07-04", endDate="2027-07-08"))
+        self.assertIsNone(self.event(startDate="2027-11-04", endDate="2027-11-08"))
+    def test_twelve_month_horizon(self):
+        self.assertIsNotNone(self.event(startDate="2027-07-04", endDate="2027-07-08"))
+        self.assertIsNotNone(self.event(startDate="2027-10-26", endDate="2027-10-26"))
+        self.assertIsNone(self.event(startDate="2027-10-27", endDate="2027-10-27"))
+        leap_day = c.parse_date("2028-02-29T12:00:00+07:00")
+        self.assertEqual(c.add_months(leap_day, 12).date().isoformat(), "2029-02-28")
     def test_cancelled_online_and_unsafe_links(self):
         self.assertIsNone(self.event(eventStatus="https://schema.org/EventCancelled"))
         self.assertIsNone(self.event(eventAttendanceMode="https://schema.org/OnlineEventAttendanceMode"))
