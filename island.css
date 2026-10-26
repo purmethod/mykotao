@@ -25,7 +25,7 @@ h1 { width: 170px; margin: 0 0 6px; font-size: 0; }
 .picker-window { position: absolute; top: 17.5%; left: 7%; right: 7%; height: 65%; overflow: hidden; perspective: 350px; touch-action: none; mask-image: linear-gradient(transparent, black 22%, black 78%, transparent); -webkit-mask-image: linear-gradient(transparent, black 22%, black 78%, transparent); }
 .picker-option { position: absolute; top: calc(50% - 17px); left: 0; right: 0; height: 34px; line-height: 34px; font-size: clamp(10px, 3vw, 14px); letter-spacing: .09em; white-space: nowrap; font-weight: 400; text-align: center; backface-visibility: hidden; will-change: transform; cursor: pointer; }
 .picker-option[aria-selected="true"] { font-weight: 700; }
-.picker-window:focus-visible { outline-offset: -3px; border-radius: 12px; }
+.picker-window:focus, .picker-window:focus-visible { outline: none; }
 .dial-option { position: absolute; left: var(--x); top: var(--y); transform: translate(-50%, -50%); min-height: 44px; display: flex; align-items: center; justify-content: center; padding: 9px 4px; text-decoration: none; font-size: 10px; font-weight: 500; letter-spacing: .09em; white-space: nowrap; }
 .dial-option:hover { color: #68734e; }
 .dial-option[aria-current="true"] { font-weight: 700; }

@@ -169,11 +169,11 @@
     }
   });
   document.querySelectorAll('.back-to-wheel').forEach(link => link.addEventListener('click', event => {
-    event.preventDefault(); home();
+    event.preventDefault(); home({focus: event.detail === 0});
   }));
   document.querySelectorAll('.home-link').forEach(link => link.addEventListener('click', event => {
     if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
-    event.preventDefault(); home();
+    event.preventDefault(); home({focus: event.detail === 0});
   }));
   document.querySelectorAll('.choice-detail').forEach(detail => detail.addEventListener('toggle', () => {
     if (detail.open) detail.parentElement.querySelectorAll('.choice-detail').forEach(other => { if (other !== detail) other.open = false; });
