@@ -6,6 +6,8 @@
   const status = document.getElementById('feed-status');
   const sourceList = document.getElementById('sources');
   const types = {'parties':'PARTIES','raves':'RAVES','retreats':'RETREATS','yoga-retreats':'YOGA RETREATS','workshops':'WORKSHOPS','live-music':'LIVE MUSIC','community':'COMMUNITY'};
+  const requestedCategory = new URLSearchParams(location.search).get('category');
+  if (requestedCategory === 'all' || Object.hasOwn(types, requestedCategory)) category.value = requestedCategory;
   const dateFormat = new Intl.DateTimeFormat('en-GB', {timeZone:'Asia/Bangkok',day:'numeric',month:'short',year:'numeric'});
   const timeFormat = new Intl.DateTimeFormat('en-GB', {timeZone:'Asia/Bangkok',hour:'2-digit',minute:'2-digit',hour12:false});
   const dayFormat = new Intl.DateTimeFormat('en-CA', {timeZone:'Asia/Bangkok',year:'numeric',month:'2-digit',day:'2-digit'});
