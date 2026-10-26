@@ -72,7 +72,7 @@
       const body = node('div');
       body.append(node('p',types[e.category] || 'EVENT','event-type'),node('h2',e.title),node('p',e.location,'event-location'),node('p',e.summary,'event-description'));
       if (e.stale || Date.now()-Date.parse(e.checkedAt)>48*3600000) body.append(node('p','Last-known listing. Check the original for changes.','stale'));
-      const link = node('a','VIEW ORIGINAL ↗','source-link');
+      const link = node('a','VIEW ORIGINAL','source-link');
       link.href = safeURL(e.url); link.target='_blank'; link.rel='noopener noreferrer';
       link.setAttribute('aria-label','View original listing for '+e.title);
       body.append(link); article.append(date,body); list.append(article);
