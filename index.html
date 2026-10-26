@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#fdfaf2">
   <title>MYKOTAO — Explore Koh Tao</title>
   <meta name="description" content="The best things in Koh Tao. Hand selected. Eat, relax, move, explore, connect, stay and discover what’s next.">
@@ -20,9 +20,12 @@
 <body>
   <main>
     <section class="island-home" id="island" aria-label="Explore Koh Tao">
-      <h1><img class="logo" src="/assets/mykotao-logo.png" alt="MYKOTAO" width="1254" height="1254" fetchpriority="high"></h1>
+      <div class="home-brand">
+      <h1><a class="home-link" href="/" aria-label="MYKOTAO home"><img class="logo" src="/assets/mykotao-logo.png" alt="MYKOTAO" width="1254" height="1254" fetchpriority="high"></a></h1>
       <p class="tagline">THE BEST THINGS IN KOH TAO</p>
       <p class="selection">HAND SELECTED</p>
+      </div>
+      <div class="dial-stage">
       <nav class="island-dial" aria-label="Island categories">
         <div class="dial-ring" aria-hidden="true"></div>
         <div class="dial-marker" aria-hidden="true"></div>
@@ -47,6 +50,7 @@
         <a class="dial-option" data-category="essentials" href="#essentials" style="--x:11.000%;--y:50.000%" aria-controls="essentials">ESSENTIALS</a>
         <a class="dial-option" data-category="whats-next" href="#whats-next" style="--x:22.423%;--y:22.423%" aria-controls="whats-next" aria-label="What’s Next"><span class="stacked-label">WHAT’S<br>NEXT</span></a>
       </nav>
+      </div>
       <p class="dial-hint">TURN THE RING · CLICK</p>
     </section>
     <div class="category-content">

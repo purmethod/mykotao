@@ -7,6 +7,9 @@ button, a, summary { -webkit-tap-highlight-color: transparent; }
 :focus-visible { outline: 2px solid #68734e; outline-offset: 5px; }
 [hidden] { display: none !important; }
 .island-home { display: flex; flex-direction: column; align-items: center; text-align: center; padding: 18px 18px 20px; }
+.home-brand { display: flex; flex-direction: column; align-items: center; }
+.home-link { display: block; }
+.dial-stage { width: min(440px, 100%); display: flex; justify-content: center; align-items: center; }
 h1 { width: 170px; margin: 0 0 6px; font-size: 0; }
 .logo { display: block; width: 100%; height: auto; }
 .tagline, .selection, .follow, .eyebrow { font-size: 10px; font-weight: 500; line-height: 1.8; letter-spacing: .25em; text-transform: uppercase; }
@@ -57,3 +60,42 @@ footer { text-align: center; padding: 6px 24px 28px; }
 
 .stacked-label { display: inline-block; line-height: 1.1; white-space: normal; text-align: center; }
 .picker-option[data-picker-index="7"] { display: flex; align-items: center; justify-content: center; }
+
+/* Fit the landing view to the visible viewport, including mobile browser bars.
+   Category views retain normal document scrolling. */
+html.is-home, html.is-home body { height: 100%; overflow: hidden; overscroll-behavior: none; }
+.is-home main {
+  --screen-height: 100vh;
+  height: var(--screen-height);
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+  overflow: hidden;
+}
+@supports (height: 100dvh) { .is-home main { --screen-height: 100dvh; } }
+.is-home .island-home {
+  min-height: 0;
+  padding: clamp(6px, 1.5dvh, 16px) max(18px, env(safe-area-inset-right)) 0 max(18px, env(safe-area-inset-left));
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  justify-items: center;
+  align-items: center;
+}
+.is-home h1 { width: clamp(90px, 22dvh, 170px); margin-bottom: 4px; }
+.is-home .dial-stage { width: 100%; height: 100%; min-width: 0; min-height: 0; container-type: size; }
+.is-home .island-dial { flex: none; margin: 0; width: min(440px, 100%, calc(var(--screen-height) - 300px)); }
+@supports (width: 100cqh) { .is-home .island-dial { width: min(440px, 100cqw, 100cqh); } }
+.is-home .dial-hint { margin: 0; padding: 4px 2px; }
+.is-home .category-content { display: none; }
+.is-home footer { padding: 4px 24px clamp(8px, 1.5dvh, 16px); }
+.is-home .follow { gap: 0; }
+@media (max-height: 500px) and (min-width: 600px) {
+  .is-home .island-home { grid-template-columns: minmax(160px, .8fr) minmax(0, 1fr); grid-template-rows: minmax(0, 1fr) auto; column-gap: 24px; }
+  .is-home .home-brand { grid-column: 1; grid-row: 1 / 3; }
+  .is-home h1 { width: clamp(90px, 35dvh, 160px); }
+  .is-home .dial-stage { grid-column: 2; grid-row: 1; }
+  .is-home .dial-hint { grid-column: 2; grid-row: 2; }
+  .is-home .follow { flex-direction: row; gap: 8px; }
+  .is-home footer { padding-block: 0; }
+}

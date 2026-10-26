@@ -62,6 +62,7 @@
   }
   function open(index, {history = true, focus = true} = {}) {
     select(index, false);
+    document.documentElement.classList.remove('is-home');
     const id = options[selected].dataset.category;
     panels.forEach(panel => { panel.hidden = panel.id !== id; });
     if (history && location.hash !== '#' + id) window.history.pushState(null, '', '#' + id);
@@ -72,9 +73,10 @@
   function home({history = true, focus = true} = {}) {
     settle();
     panels.forEach(panel => { panel.hidden = true; });
+    document.documentElement.classList.add('is-home');
     if (history) window.history.pushState(null, '', location.pathname + location.search);
     if (focus) picker.focus({preventScroll: true});
-    document.getElementById('island').scrollIntoView({behavior: behavior(), block: 'start'});
+    document.getElementById('island').scrollIntoView({behavior: 'instant', block: 'start'});
   }
   function route() {
     const index = options.findIndex(option => '#' + option.dataset.category === location.hash);
@@ -167,6 +169,10 @@
     }
   });
   document.querySelectorAll('.back-to-wheel').forEach(link => link.addEventListener('click', event => {
+    event.preventDefault(); home();
+  }));
+  document.querySelectorAll('.home-link').forEach(link => link.addEventListener('click', event => {
+    if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
     event.preventDefault(); home();
   }));
   document.querySelectorAll('.choice-detail').forEach(detail => detail.addEventListener('toggle', () => {

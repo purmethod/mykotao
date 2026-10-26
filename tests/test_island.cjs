@@ -31,7 +31,9 @@ function setup() {
   const options = names.map(n => { const e = new Element(n + '-option', n.toUpperCase()); e.dataset.category = n; e.parentElement = dial; return e; });
   const rows = names.map((n, i) => { const e = new Element('picker-option-' + i, n); e.dataset.pickerIndex = String(i); e.parentElement = picker; return e; });
   const panels = names.map(n => { const e = new Element(n); e.heading = new Element(n + '-title'); return e; });
-  const home = new Element('island'), back = new Element('back-to-wheel');
+  const home = new Element('island'), back = new Element('back-to-wheel'), logo = new Element('home-link');
+  const rootClasses = new Set();
+  const documentElement = {classList: {add: value => rootClasses.add(value), remove: value => rootClasses.delete(value)}};
   const byid = Object.fromEntries([...panels, home].map(e => [e.id, e]));
   dial.querySelectorAll = () => options; picker.querySelectorAll = () => rows;
   dial.querySelector = s => s === '.picker-window' ? picker : null;
@@ -44,7 +46,7 @@ function setup() {
   let now = 0, nextId = 0;
   const rafs = new Map(), timers = new Map();
   const context = {
-    document: {querySelector: () => dial, querySelectorAll: s => s === '.category-panel' ? panels : s === '.back-to-wheel' ? [back] : [], getElementById: id => byid[id]},
+    document: {documentElement, querySelector: () => dial, querySelectorAll: s => s === '.category-panel' ? panels : s === '.back-to-wheel' ? [back] : s === '.home-link' ? [logo] : [], getElementById: id => byid[id]},
     window: {matchMedia: () => ({matches: false}), addEventListener: (t, f) => { handlers[t] = f; }, history: {pushState(a, b, url) { location.hash = url.includes('#') ? '#' + url.split('#')[1] : ''; }}},
     location, Date, performance: {now: () => now},
     requestAnimationFrame: f => { rafs.set(++nextId, f); return nextId; },
@@ -62,7 +64,7 @@ function setup() {
     for (const [id, fn] of [...rafs]) { rafs.delete(id); fn(now); }
   }
   const selected = () => Number(picker.attrs['aria-activedescendant'].split('-').at(-1));
-  return {dial, picker, rows, options, panels, location, handlers, selected, fire, flush, pause: () => { now += 200; }};
+  return {rootClasses, logo, dial, picker, rows, options, panels, location, handlers, selected, fire, flush, pause: () => { now += 200; }};
 }
 {
   const t = setup();
@@ -97,7 +99,12 @@ function setup() {
   assert.equal(t.location.hash, '');
   t.fire('pointerdown', t.rows[5]); t.fire('pointerup', t.rows[5]);
   assert.equal(t.location.hash, '#stay', 'A fresh confirmation tap must work immediately');
+  assert.equal(t.rootClasses.has('is-home'), false, 'Category content must be scrollable');
   assert.equal(t.panels.filter(p => !p.hidden).length, 1);
+  t.logo.handlers.click({preventDefault() {}});
+  assert.equal(t.location.hash, '');
+  assert.equal(t.rootClasses.has('is-home'), true, 'Logo returns to the fitted homepage');
+  assert(t.panels.every(p => p.hidden));
 }
 {
   const t = setup();
