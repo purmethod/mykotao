@@ -2,48 +2,26 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#fdfaf2">
   <title>What's next in Koh Tao — MYKOTAO</title>
   <meta name="description" content="Koh Tao events in one calendar: parties, yoga, retreats, live music, community and conservation. The next twelve months, in date order.">
   <link rel="canonical" href="https://mykotao.com/whats-next">
   <link rel="icon" type="image/png" href="/assets/mykotao-logo.png">
-  <link rel="stylesheet" href="/events.css">
-  <script defer src="/events.js"></script>
+  <!-- One COMPAZ for every site: below the MYKOTAO logo, this page shows mycompaz.com set to Ko Tao.
+       Changes to COMPAZ appear here automatically. The event collector still feeds data/events.json, which COMPAZ reads. -->
+  <style>
+    html,body{margin:0;height:100%;background:#fdfaf2}
+    body{display:flex;flex-direction:column;height:100vh;height:100dvh}
+    header{flex:none;display:flex;justify-content:center;padding:max(10px,env(safe-area-inset-top)) 16px 0}
+    header a{display:block;line-height:0}
+    header img{width:clamp(64px,11dvh,104px);height:auto}
+    iframe{flex:1;display:block;border:0;width:100%;min-height:0}
+  </style>
 </head>
 <body>
-  <header><a class="brand" href="/">MYKOTAO</a><a class="back" href="/">BACK TO ISLAND</a></header>
-  <main>
-    <p class="eyebrow">THE ISLAND, AHEAD OF TIME</p>
-    <h1>WHAT’S NEXT<br><span>IN KOH TAO</span></h1>
-    <p class="intro">ONE ISLAND. WHAT’S HAPPENING. IN DATE ORDER.</p>
-    <div class="filters">
-      <label>EXPLORE
-        <select id="category">
-          <option value="all">ALL EVENTS</option>
-          <option value="parties">PARTIES</option>
-          <option value="raves">RAVES</option>
-          <option value="retreats">RETREATS</option>
-          <option value="yoga-retreats">YOGA RETREATS</option>
-          <option value="workshops">WORKSHOPS</option>
-          <option value="live-music">LIVE MUSIC</option>
-          <option value="community">COMMUNITY</option>
-          <option value="wellness">YOGA &amp; WELLNESS</option>
-          <option value="sports">SPORTS &amp; ADVENTURE</option>
-          <option value="conservation">CONSERVATION</option>
-        </select>
-      </label>
-    </div>
-    <p id="feed-status" class="feed-status" role="status">Loading upcoming events…</p>
-    <div id="events" class="events" aria-live="polite"></div>
-    <noscript><p>Enable JavaScript to browse upcoming events. You can also visit <a href="https://www.kohtaoescobar.com/buy">Escobar’s schedule</a> or <a href="https://kohtaoyoga.com/retreats/">Koh Tao Yoga’s retreats</a>.</p></noscript>
-    <footer>
-      <p>ALL TIMES ARE LOCAL · KOH TAO, THAILAND</p>
-      <p>Listings come from organizers and event calendars. They are not personally tested recommendations. Check the original listing before making plans.</p>
-      <details><summary>SOURCES &amp; UPDATES</summary><ul id="sources"></ul><p>Sources are checked every six hours. Published dates are collected up to twelve months ahead. Weekly programs without an end date appear for the next four weeks and are marked for reconfirmation. Instagram and Facebook posts are not automatically imported; image-only announcements may be missing.</p></details>
-      <a class="instagram" href="https://www.instagram.com/mykotao/" target="_blank" rel="noopener noreferrer">FOLLOW MYKOTAO</a>
-    </footer>
-  </main>
+  <header><a href="/" aria-label="MYKOTAO home"><img src="/assets/mykotao-logo.png" alt="MYKOTAO" width="1254" height="1254"></a></header>
+  <iframe src="https://mycompaz.com/?place=10.095,99.84&amp;name=Ko%20Tao&amp;cc=TH&amp;country=Thailand&amp;region=Surat%20Thani&amp;embed=1#whats-next" title="COMPAZ — Ko Tao" allow="geolocation"></iframe>
+  <noscript><p><a href="https://mycompaz.com/?place=10.095,99.84&amp;name=Ko%20Tao&amp;cc=TH&amp;country=Thailand&amp;region=Surat%20Thani&amp;embed=1#whats-next">Open COMPAZ for Ko Tao</a></p></noscript>
 </body>
 </html>
-
