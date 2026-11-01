@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T20:25:27.870241+07:00",
+  "updatedAt": "2026-11-02T05:02:24.337165+07:00",
   "timezone": "Asia/Bangkok",
   "horizonMonths": 12,
   "instagram": {
@@ -16,7 +16,7 @@
       "pagesChecked": 1,
       "eventsFound": 12,
       "errors": [],
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "rootSuccess": true
     },
     {
@@ -29,7 +29,7 @@
       "pagesChecked": 7,
       "eventsFound": 8,
       "errors": [],
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "rootSuccess": true
     },
     {
@@ -42,7 +42,7 @@
       "pagesChecked": 16,
       "eventsFound": 29,
       "errors": [],
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "rootSuccess": true
     },
     {
@@ -55,7 +55,7 @@
       "pagesChecked": 1,
       "eventsFound": 219,
       "errors": [],
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "rootSuccess": true
     },
     {
@@ -63,17 +63,12 @@
       "name": "Goodtime Adventures & Beach Club",
       "url": "https://goodtimethailand.com/events/",
       "kind": "organizer",
-      "status": "partial",
+      "status": "ok",
       "coverage": "Official dated events and calendar recurrence, only until each published end date",
       "pagesChecked": 1,
-      "eventsFound": 0,
-      "errors": [
-        {
-          "url": "https://goodtimethailand.com/?gec_ical=1",
-          "error": "iCalendar feed missing"
-        }
-      ],
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "eventsFound": 91,
+      "errors": [],
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "rootSuccess": true
     },
     {
@@ -83,10 +78,10 @@
       "kind": "organizer",
       "status": "ok",
       "coverage": "Dated booking schedule; rolling four-week discovery",
-      "pagesChecked": 1,
-      "eventsFound": 0,
+      "pagesChecked": 2,
+      "eventsFound": 59,
       "errors": [],
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "rootSuccess": true
     },
     {
@@ -97,9 +92,9 @@
       "status": "ok",
       "coverage": "Published Koh Tao channel, including local studios and venues; rolling two-week discovery",
       "pagesChecked": 8,
-      "eventsFound": 37,
+      "eventsFound": 48,
       "errors": [],
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "rootSuccess": true
     },
     {
@@ -112,7 +107,7 @@
       "pagesChecked": 1,
       "eventsFound": 28,
       "errors": [],
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "rootSuccess": true
     },
     {
@@ -125,7 +120,7 @@
       "pagesChecked": 1,
       "eventsFound": 5,
       "errors": [],
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "rootSuccess": true
     },
     {
@@ -155,7 +150,7 @@
           "error": "HTTP Error 403: Forbidden"
         }
       ],
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "rootSuccess": true
     },
     {
@@ -165,67 +160,48 @@
       "kind": "calendar",
       "status": "ok",
       "coverage": "Dated Koh Tao event listings and original ticket links",
-      "pagesChecked": 12,
-      "eventsFound": 11,
+      "pagesChecked": 15,
+      "eventsFound": 14,
       "errors": [],
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "rootSuccess": true
     }
   ],
   "events": [
     {
-      "id": "50951f910b61a54c",
-      "title": "OCTOBER 31ST, 2026 Hii Festival Koh Tao",
-      "category": "parties",
-      "start": "2026-10-31T21:30:00+07:00",
-      "end": "2026-11-01T07:00:00+07:00",
+      "id": "1fb6fb19526e3f41",
+      "title": "Meditation & Breathing",
+      "category": "wellness",
+      "start": "2026-11-02T08:00:00+07:00",
+      "end": "2026-11-02T08:50:00+07:00",
       "dateOnly": false,
-      "location": "Hii Festival, Koh Tao",
-      "summary": "Party at Hii Festival, Koh Tao.",
-      "url": "https://www.eventpop.me/e/174511",
-      "sourceId": "hii-festival",
-      "sourceName": "Hii Festival · Official calendar",
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Wellness session at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-10-28T01:02:19.703236+07:00",
-      "personallyTested": false,
-      "stale": true
-    },
-    {
-      "id": "2ff4c9cf1e0e04b4",
-      "title": "Beach Cleanup",
-      "category": "conservation",
-      "start": "2026-11-01T17:30:00+07:00",
-      "end": null,
-      "dateOnly": false,
-      "location": "Koh Tao — meeting point with Black Turtle Conservation",
-      "summary": "Conservation event at Koh Tao — meeting point with Black Turtle Conservation.",
-      "url": "https://www.blackturtleconservation.com/community/",
-      "sourceId": "black-turtle",
-      "sourceName": "Black Turtle Conservation",
-      "sourceKind": "organizer",
-      "schedule": "weekly-program",
-      "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
-      "id": "513c8ccba0f4f5d4",
-      "title": "Koh Tao Pub Crawl",
-      "category": "parties",
-      "start": "2026-11-01T18:00:00+07:00",
-      "end": null,
+      "id": "afc7781c4ada62b5",
+      "title": "Ashtanga",
+      "category": "wellness",
+      "start": "2026-11-02T09:00:00+07:00",
+      "end": "2026-11-02T10:30:00+07:00",
       "dateOnly": false,
-      "location": "Choppers, Sairee, Koh Tao",
-      "summary": "Party at Choppers, Sairee, Koh Tao.",
-      "url": "https://www.chopperskohtao.com/events-on-koh-tao/",
-      "sourceId": "choppers",
-      "sourceName": "Choppers · Pub crawl, open mic & quiz",
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Wellness session at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
       "sourceKind": "organizer",
-      "schedule": "weekly-program",
-      "note": "18:00 is check-in time.",
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -243,7 +219,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -261,25 +237,25 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
-      "id": "9ca61ec0373f8ff0",
-      "title": "Vinyasa Yoga w/ Mica",
+      "id": "23124f015a0d8fe9",
+      "title": "Vinyasa",
       "category": "wellness",
       "start": "2026-11-02T11:00:00+07:00",
       "end": "2026-11-02T12:00:00+07:00",
       "dateOnly": false,
       "location": "Blue Chitta, Koh Tao",
       "summary": "Wellness session at Blue Chitta, Koh Tao.",
-      "url": "https://todo.today/koh-tao/2026/11/02/vinyasa-yoga-1069",
-      "sourceId": "todo-today",
-      "sourceName": "Todo Today · Koh Tao",
-      "sourceKind": "calendar",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -297,25 +273,25 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
-      "id": "d4e2085d98bfdbf1",
-      "title": "Hatha Yoga w/ Eva",
+      "id": "9d99d9f9e5c414b9",
+      "title": "Hatha",
       "category": "wellness",
       "start": "2026-11-02T17:30:00+07:00",
       "end": "2026-11-02T18:30:00+07:00",
       "dateOnly": false,
       "location": "Blue Chitta, Koh Tao",
       "summary": "Wellness session at Blue Chitta, Koh Tao.",
-      "url": "https://todo.today/koh-tao/2026/11/02/hatha-yoga-1972",
-      "sourceId": "todo-today",
-      "sourceName": "Todo Today · Koh Tao",
-      "sourceKind": "calendar",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -333,7 +309,25 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": "18:00 is check-in time.",
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "98609fb828a8ea18",
+      "title": "Vinyasa en Espanol",
+      "category": "wellness",
+      "start": "2026-11-02T18:30:00+07:00",
+      "end": "2026-11-02T19:30:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Wellness session at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -351,25 +345,115 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
-      "id": "bbab3b5567bb2ec0",
-      "title": "Candlelight Yin Yoga w/ Mica",
+      "id": "766c922bde7ec558",
+      "title": "Candlelit Yin",
       "category": "wellness",
       "start": "2026-11-02T19:00:00+07:00",
       "end": "2026-11-02T20:00:00+07:00",
       "dateOnly": false,
       "location": "Blue Chitta, Koh Tao",
       "summary": "Wellness session at Blue Chitta, Koh Tao.",
-      "url": "https://todo.today/koh-tao/2026/11/02/candlelight-yin-yoga-10",
-      "sourceId": "todo-today",
-      "sourceName": "Todo Today · Koh Tao",
-      "sourceKind": "calendar",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "64ddd76bedaedddf",
+      "title": "Sunrise Yoga",
+      "category": "wellness",
+      "start": "2026-11-03T06:30:00+07:00",
+      "end": "2026-11-03T07:30:00+07:00",
+      "dateOnly": false,
+      "location": "Different location: High the Moon viewpoint, Koh Tao",
+      "summary": "Wellness session at Different location: High the Moon viewpoint, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "8a635dec63777f29",
+      "title": "Meditation & Breathing",
+      "category": "wellness",
+      "start": "2026-11-03T08:00:00+07:00",
+      "end": "2026-11-03T08:50:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Wellness session at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "d16104e6efcf2bc8",
+      "title": "1 Day Freediving Discovery",
+      "category": "sports",
+      "start": "2026-11-03T09:00:00+07:00",
+      "end": "2026-11-03T12:30:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Activity at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "bdf12cc71392b25b",
+      "title": "Reef Fun Dive · Freediving & Snorkeling",
+      "category": "sports",
+      "start": "2026-11-03T09:00:00+07:00",
+      "end": "2026-11-03T14:00:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Activity at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "6f9342f789addb89",
+      "title": "Ashtanga",
+      "category": "wellness",
+      "start": "2026-11-03T09:00:00+07:00",
+      "end": "2026-11-03T10:30:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Wellness session at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -387,7 +471,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -405,7 +489,25 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "22c2567701b8e420",
+      "title": "Yoga for Beginners",
+      "category": "wellness",
+      "start": "2026-11-03T11:00:00+07:00",
+      "end": "2026-11-03T12:00:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Wellness session at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -423,7 +525,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -441,7 +543,43 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "82c36392136faea8",
+      "title": "Vinyasa",
+      "category": "wellness",
+      "start": "2026-11-03T17:30:00+07:00",
+      "end": "2026-11-03T18:30:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Wellness session at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "fa7c26d6e30b7bb9",
+      "title": "Candlelit Yin & Nidra",
+      "category": "wellness",
+      "start": "2026-11-03T19:00:00+07:00",
+      "end": "2026-11-03T20:30:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Wellness session at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -459,7 +597,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -477,7 +615,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -495,7 +633,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -513,7 +651,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -531,7 +669,79 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "6dbbe04462292ef4",
+      "title": "Meditation & Breathing",
+      "category": "wellness",
+      "start": "2026-11-04T08:00:00+07:00",
+      "end": "2026-11-04T08:50:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Wellness session at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "5a364d158dc3393d",
+      "title": "Ashtanga",
+      "category": "wellness",
+      "start": "2026-11-04T09:00:00+07:00",
+      "end": "2026-11-04T10:30:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Wellness session at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "52e8675d4411a1af",
+      "title": "4 Days · Level 2 Freediving Retreat",
+      "category": "retreats",
+      "start": "2026-11-04T09:00:00+07:00",
+      "end": "2026-11-04T13:00:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Retreat at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "305148194d5bcafb",
+      "title": "Pool Training",
+      "category": "wellness",
+      "start": "2026-11-04T09:00:00+07:00",
+      "end": "2026-11-04T13:00:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Wellness session at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -549,7 +759,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -567,7 +777,79 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "6e6cfe64473ea444",
+      "title": "Yin Yang",
+      "category": "wellness",
+      "start": "2026-11-04T11:00:00+07:00",
+      "end": "2026-11-04T12:00:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Wellness session at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "b0cef3fe518dd10f",
+      "title": "2 Day Freediving Intro",
+      "category": "sports",
+      "start": "2026-11-04T12:00:00+07:00",
+      "end": "2026-11-04T15:30:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Activity at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "ca760f6db0704c18",
+      "title": "3 Days · Level 1 Freediving Retreat",
+      "category": "retreats",
+      "start": "2026-11-04T12:00:00+07:00",
+      "end": "2026-11-04T15:30:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Retreat at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "5e515eb3b5891371",
+      "title": "Breathwork & Ice Bath",
+      "category": "wellness",
+      "start": "2026-11-04T16:00:00+07:00",
+      "end": "2026-11-04T17:30:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Wellness session at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -585,7 +867,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -603,9 +885,26 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "3ec16d0a3b63d2ed",
+      "title": "Hatha",
+      "category": "wellness",
+      "start": "2026-11-04T17:30:00+07:00",
+      "end": "2026-11-04T18:30:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Wellness session at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "077cab3ed5d96baf",
@@ -622,25 +921,115 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": "18:00 is check-in time.",
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
-      "id": "b89af64da04cecdb",
-      "title": "Candlelight Yin Yoga w/ Mica",
+      "id": "c6d97dbd5f5cf66f",
+      "title": "Candlelit Yin",
       "category": "wellness",
       "start": "2026-11-04T19:00:00+07:00",
       "end": "2026-11-04T20:00:00+07:00",
       "dateOnly": false,
       "location": "Blue Chitta, Koh Tao",
       "summary": "Wellness session at Blue Chitta, Koh Tao.",
-      "url": "https://todo.today/koh-tao/2026/11/04/candlelight-yin-yoga-11",
-      "sourceId": "todo-today",
-      "sourceName": "Todo Today · Koh Tao",
-      "sourceKind": "calendar",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "3586b067a08beed0",
+      "title": "Sunrise Yoga",
+      "category": "wellness",
+      "start": "2026-11-05T06:30:00+07:00",
+      "end": "2026-11-05T07:30:00+07:00",
+      "dateOnly": false,
+      "location": "Different location: High the Moon viewpoint, Koh Tao",
+      "summary": "Wellness session at Different location: High the Moon viewpoint, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "f58d8799aaaf4fc4",
+      "title": "Meditation & Breathing",
+      "category": "wellness",
+      "start": "2026-11-05T08:00:00+07:00",
+      "end": "2026-11-05T08:50:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Wellness session at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "7212a30290b47bb2",
+      "title": "Freediving Depth Training",
+      "category": "sports",
+      "start": "2026-11-05T09:00:00+07:00",
+      "end": "2026-11-05T14:00:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Activity at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "f3606c1f17d27389",
+      "title": "Freediving Trip to Sail Rock",
+      "category": "sports",
+      "start": "2026-11-05T09:00:00+07:00",
+      "end": "2026-11-05T14:00:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Activity at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "13606709b83357ae",
+      "title": "Ashtanga",
+      "category": "wellness",
+      "start": "2026-11-05T09:00:00+07:00",
+      "end": "2026-11-05T10:30:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Wellness session at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -658,7 +1047,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -676,7 +1065,25 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "b61d976406919878",
+      "title": "Slow Flow",
+      "category": "wellness",
+      "start": "2026-11-05T11:00:00+07:00",
+      "end": "2026-11-05T12:00:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Wellness session at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -694,7 +1101,43 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "94245ce63f75a842",
+      "title": "Vinyasa",
+      "category": "wellness",
+      "start": "2026-11-05T17:30:00+07:00",
+      "end": "2026-11-05T18:30:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Wellness session at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "40963f9c235418db",
+      "title": "Candlelit Yin",
+      "category": "wellness",
+      "start": "2026-11-05T19:00:00+07:00",
+      "end": "2026-11-05T20:00:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Wellness session at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -712,7 +1155,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -730,25 +1173,43 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
-      "id": "e20eac6e0a6eaed0",
-      "title": "Candlelight Yin Yoga w/ Mica",
+      "id": "75f98da586c353e5",
+      "title": "Sunrise Yoga",
       "category": "wellness",
-      "start": "2026-11-05T19:00:00+07:00",
-      "end": "2026-11-05T20:00:00+07:00",
+      "start": "2026-11-06T06:30:00+07:00",
+      "end": "2026-11-06T07:30:00+07:00",
+      "dateOnly": false,
+      "location": "Different location: High the Moon viewpoint, Koh Tao",
+      "summary": "Wellness session at Different location: High the Moon viewpoint, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "dfb49b149f63703e",
+      "title": "Meditation & Breathing",
+      "category": "wellness",
+      "start": "2026-11-06T08:00:00+07:00",
+      "end": "2026-11-06T08:50:00+07:00",
       "dateOnly": false,
       "location": "Blue Chitta, Koh Tao",
       "summary": "Wellness session at Blue Chitta, Koh Tao.",
-      "url": "https://todo.today/koh-tao/2026/11/05/candlelight-yin-yoga-12",
-      "sourceId": "todo-today",
-      "sourceName": "Todo Today · Koh Tao",
-      "sourceKind": "calendar",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -766,7 +1227,43 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "acb770a1458102c3",
+      "title": "Ashtanga",
+      "category": "wellness",
+      "start": "2026-11-06T09:00:00+07:00",
+      "end": "2026-11-06T10:30:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Wellness session at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "cc6cbbcef0453319",
+      "title": "Freediving Depth Training",
+      "category": "sports",
+      "start": "2026-11-06T09:00:00+07:00",
+      "end": "2026-11-06T12:30:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Activity at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -784,7 +1281,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -802,7 +1299,79 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "44d950127c7527c9",
+      "title": "Vinyasa",
+      "category": "wellness",
+      "start": "2026-11-06T11:00:00+07:00",
+      "end": "2026-11-06T12:00:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Wellness session at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "1d0f5ba22cf80699",
+      "title": "3 Days · Level 1 Freediving Retreat",
+      "category": "retreats",
+      "start": "2026-11-06T12:30:00+07:00",
+      "end": "2026-11-06T15:30:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Retreat at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "8864f2c3da4e7eff",
+      "title": "2 Day Freediving Intro",
+      "category": "sports",
+      "start": "2026-11-06T12:30:00+07:00",
+      "end": "2026-11-06T15:30:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Activity at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "f24ba3c574340cc3",
+      "title": "Breathwork & Ice Bath",
+      "category": "wellness",
+      "start": "2026-11-06T16:00:00+07:00",
+      "end": "2026-11-06T17:30:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Wellness session at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -820,7 +1389,25 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "a4cde0d116dc5f04",
+      "title": "Yin Yang",
+      "category": "wellness",
+      "start": "2026-11-06T17:30:00+07:00",
+      "end": "2026-11-06T18:30:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Wellness session at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -838,9 +1425,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "b78ba263bd021fa9",
@@ -857,7 +1443,25 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": "18:00 is check-in time.",
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "a6cdc442b01cd76a",
+      "title": "Community Dinner & Music Jam · Prebook",
+      "category": "wellness",
+      "start": "2026-11-06T19:00:00+07:00",
+      "end": "2026-11-06T21:00:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Wellness session at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -875,25 +1479,61 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
-      "id": "603470bc98d42494",
-      "title": "Meditation & Breathing w/ Sky",
+      "id": "3eca9af5090f5e4e",
+      "title": "Sunrise Yoga",
+      "category": "wellness",
+      "start": "2026-11-07T06:30:00+07:00",
+      "end": "2026-11-07T07:30:00+07:00",
+      "dateOnly": false,
+      "location": "Different location: High the Moon viewpoint, Koh Tao",
+      "summary": "Wellness session at Different location: High the Moon viewpoint, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "da69f64e8d57be29",
+      "title": "Meditation & Breathing",
       "category": "wellness",
       "start": "2026-11-07T08:00:00+07:00",
       "end": "2026-11-07T08:50:00+07:00",
       "dateOnly": false,
       "location": "Blue Chitta, Koh Tao",
       "summary": "Wellness session at Blue Chitta, Koh Tao.",
-      "url": "https://todo.today/koh-tao/2026/11/07/meditation-breathing-23",
-      "sourceId": "todo-today",
-      "sourceName": "Todo Today · Koh Tao",
-      "sourceKind": "calendar",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "96febcf4e43d12ac",
+      "title": "Freediving Depth Training",
+      "category": "sports",
+      "start": "2026-11-07T09:00:00+07:00",
+      "end": "2026-11-07T12:30:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Activity at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -911,7 +1551,25 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "e94aadbd08c3b7e2",
+      "title": "Vinyasa",
+      "category": "wellness",
+      "start": "2026-11-07T09:45:00+07:00",
+      "end": "2026-11-07T11:00:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Wellness session at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -929,7 +1587,25 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "06f409b8d6775fe5",
+      "title": "Vinyasa",
+      "category": "wellness",
+      "start": "2026-11-07T11:00:00+07:00",
+      "end": "2026-11-07T12:00:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Wellness session at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -947,9 +1623,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "af1eabb55fa91099",
@@ -966,25 +1641,25 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
-      "id": "f4d501698e12d254",
-      "title": "Fluid Flow Yoga w/ Saty",
+      "id": "47922cc8d2cef3b6",
+      "title": "Fluid FLow",
       "category": "wellness",
       "start": "2026-11-07T17:30:00+07:00",
-      "end": "2026-11-07T18:30:00+07:00",
+      "end": "2026-11-07T18:45:00+07:00",
       "dateOnly": false,
       "location": "Blue Chitta, Koh Tao",
       "summary": "Wellness session at Blue Chitta, Koh Tao.",
-      "url": "https://todo.today/koh-tao/2026/11/07/fluid-flow-yoga-22",
-      "sourceId": "todo-today",
-      "sourceName": "Todo Today · Koh Tao",
-      "sourceKind": "calendar",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1002,26 +1677,241 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
-      "id": "72a37f50090c9384",
-      "title": "Candlelight Yin Yoga w/ Mica",
+      "id": "1d933b2aad60f27d",
+      "title": "Vinyasa en Espanol",
+      "category": "wellness",
+      "start": "2026-11-07T18:30:00+07:00",
+      "end": "2026-11-07T19:30:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Wellness session at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "53554c047e2ed080",
+      "title": "Candlelit Yin",
       "category": "wellness",
       "start": "2026-11-07T19:00:00+07:00",
       "end": "2026-11-07T20:00:00+07:00",
       "dateOnly": false,
       "location": "Blue Chitta, Koh Tao",
       "summary": "Wellness session at Blue Chitta, Koh Tao.",
-      "url": "https://todo.today/koh-tao/2026/11/07/candlelight-yin-yoga-13",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "8d63365a553de447",
+      "title": "Meditation & Breathing",
+      "category": "wellness",
+      "start": "2026-11-08T08:00:00+07:00",
+      "end": "2026-11-08T08:50:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Wellness session at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "78bccc926386abe2",
+      "title": "1 Day Freediving Discovery",
+      "category": "sports",
+      "start": "2026-11-08T09:00:00+07:00",
+      "end": "2026-11-08T12:30:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Activity at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "da5e134741e40abe",
+      "title": "Reef Fun Dive · Freediving & Snorkeling",
+      "category": "sports",
+      "start": "2026-11-08T09:00:00+07:00",
+      "end": "2026-11-08T14:00:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Activity at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "f6cf761335ef13d3",
+      "title": "Full Primary Ashtanga",
+      "category": "wellness",
+      "start": "2026-11-08T09:00:00+07:00",
+      "end": "2026-11-08T10:45:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Wellness session at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "9a9f42216e4e9eb6",
+      "title": "Freediving Depth Training",
+      "category": "sports",
+      "start": "2026-11-08T09:00:00+07:00",
+      "end": "2026-11-08T12:30:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Activity at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "05005073be72e784",
+      "title": "Vinyasa Yoga",
+      "category": "wellness",
+      "start": "2026-11-08T10:00:00+07:00",
+      "end": null,
+      "dateOnly": false,
+      "location": "The Studio @ Ocean Sound, Koh Tao",
+      "summary": "Wellness session at The Studio @ Ocean Sound, Koh Tao.",
+      "url": "https://todo.today/koh-tao/2026/11/08/vinyasa-yoga-1029",
       "sourceId": "todo-today",
       "sourceName": "Todo Today · Koh Tao",
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "cb1dfe1236ef744c",
+      "title": "Vinyasa",
+      "category": "wellness",
+      "start": "2026-11-08T11:00:00+07:00",
+      "end": "2026-11-08T12:00:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Wellness session at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "1893c5b3df62de41",
+      "title": "Dance for Kids",
+      "category": "wellness",
+      "start": "2026-11-08T11:30:00+07:00",
+      "end": "2026-11-08T12:15:00+07:00",
+      "dateOnly": false,
+      "location": "The Studio @ Ocean Sound, Koh Tao",
+      "summary": "Wellness session at The Studio @ Ocean Sound, Koh Tao.",
+      "url": "https://todo.today/koh-tao/2026/11/08/dance-for-kids-1",
+      "sourceId": "todo-today",
+      "sourceName": "Todo Today · Koh Tao",
+      "sourceKind": "calendar",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "4a3b897acb800dbc",
+      "title": "FreeFlow Dance - Sharing Circle & Journaling",
+      "category": "sports",
+      "start": "2026-11-08T15:30:00+07:00",
+      "end": "2026-11-08T17:00:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Activity at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "0af83d5a6134f2cf",
+      "title": "Pilates w/ Rina",
+      "category": "community",
+      "start": "2026-11-08T16:00:00+07:00",
+      "end": "2026-11-08T17:00:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Community event at Blue Chitta, Koh Tao.",
+      "url": "https://todo.today/koh-tao/2026/11/08/pilates-106",
+      "sourceId": "todo-today",
+      "sourceName": "Todo Today · Koh Tao",
+      "sourceKind": "calendar",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "c0dda3e92cbb507e",
+      "title": "Yin Yang",
+      "category": "wellness",
+      "start": "2026-11-08T17:30:00+07:00",
+      "end": "2026-11-08T18:30:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Wellness session at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1039,7 +1929,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1057,7 +1947,25 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": "18:00 is check-in time.",
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "b68ab59c06b305b3",
+      "title": "Movie Night -Moana-",
+      "category": "wellness",
+      "start": "2026-11-08T19:30:00+07:00",
+      "end": "2026-11-08T21:00:00+07:00",
+      "dateOnly": false,
+      "location": "Blue Chitta, Koh Tao",
+      "summary": "Wellness session at Blue Chitta, Koh Tao.",
+      "url": "https://bluechitta.com/schedule/",
+      "sourceId": "blue-chitta",
+      "sourceName": "Blue Chitta · Classes & activities",
+      "sourceKind": "organizer",
+      "schedule": null,
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1075,7 +1983,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1093,7 +2001,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": "18:00 is check-in time.",
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1111,7 +2019,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1129,7 +2037,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1147,9 +2055,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "90c9f8a7edbfce87",
@@ -1166,7 +2073,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1184,7 +2091,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1202,9 +2109,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "b78abb8c87689fb6",
@@ -1221,7 +2127,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": "18:00 is check-in time.",
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1239,7 +2145,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1257,9 +2163,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "f410f4a4550443ff",
@@ -1276,7 +2181,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": "18:00 is check-in time.",
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1294,7 +2199,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1312,9 +2217,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "18be14d8f1c90fdf",
@@ -1331,9 +2235,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "0bb91730bed8d88b",
@@ -1350,7 +2253,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1368,7 +2271,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": "18:00 is check-in time.",
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1386,7 +2289,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1404,7 +2307,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": "18:00 is check-in time.",
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1422,7 +2325,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1440,7 +2343,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1458,9 +2361,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "50eba6edbeb5641e",
@@ -1477,7 +2379,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": "18:00 is check-in time.",
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1495,7 +2397,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": "Organizer date and time fields disagree. Confirm start time with the organizer.",
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1513,7 +2415,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1531,7 +2433,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1549,9 +2451,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "c945c7bb45c950cb",
@@ -1568,7 +2469,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": "18:00 is check-in time.",
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1586,7 +2487,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1604,7 +2505,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1622,9 +2523,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "ac04fb783f0a969e",
@@ -1641,9 +2541,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "dedf42aa12fb0a54",
@@ -1660,7 +2559,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1678,7 +2577,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": "18:00 is check-in time.",
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1696,7 +2595,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1714,7 +2613,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": "18:00 is check-in time.",
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1732,7 +2631,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1750,9 +2649,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "2dbab77326e425c5",
@@ -1769,9 +2667,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "d86552926c119324",
@@ -1788,7 +2685,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": "18:00 is check-in time.",
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1806,7 +2703,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1824,7 +2721,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1842,9 +2739,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "e49da3e7eb694b18",
@@ -1861,7 +2757,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": "18:00 is check-in time.",
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1879,7 +2775,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1897,7 +2793,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1915,9 +2811,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "aa17415104da3b24",
@@ -1934,9 +2829,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "4b0a7009cbc2d1b8",
@@ -1953,7 +2847,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1971,7 +2865,43 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": "Organizer date and time fields disagree. Confirm start time with the organizer.",
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "bd187cb32e9aa296",
+      "title": "Beach Cleanup",
+      "category": "conservation",
+      "start": "2026-11-29T17:30:00+07:00",
+      "end": null,
+      "dateOnly": false,
+      "location": "Koh Tao — meeting point with Black Turtle Conservation",
+      "summary": "Conservation event at Koh Tao — meeting point with Black Turtle Conservation.",
+      "url": "https://www.blackturtleconservation.com/community/",
+      "sourceId": "black-turtle",
+      "sourceName": "Black Turtle Conservation",
+      "sourceKind": "organizer",
+      "schedule": "weekly-program",
+      "note": null,
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
+    },
+    {
+      "id": "07fd4f52d8d08162",
+      "title": "Koh Tao Pub Crawl",
+      "category": "parties",
+      "start": "2026-11-29T18:00:00+07:00",
+      "end": null,
+      "dateOnly": false,
+      "location": "Choppers, Sairee, Koh Tao",
+      "summary": "Party at Choppers, Sairee, Koh Tao.",
+      "url": "https://www.chopperskohtao.com/events-on-koh-tao/",
+      "sourceId": "choppers",
+      "sourceName": "Choppers · Pub crawl, open mic & quiz",
+      "sourceKind": "organizer",
+      "schedule": "weekly-program",
+      "note": "18:00 is check-in time.",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -1989,7 +2919,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -2007,7 +2937,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -2025,7 +2955,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -2043,9 +2973,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "e2f9c2f44b8a1b04",
@@ -2062,7 +2991,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -2080,9 +3009,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "86147c488650aabe",
@@ -2099,9 +3027,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "ef00c0a5c8758cc0",
@@ -2118,9 +3045,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "465efed1a63377fc",
@@ -2137,7 +3063,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -2155,7 +3081,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -2173,9 +3099,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "a8f0926af71f185a",
@@ -2192,7 +3117,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -2210,9 +3135,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "ebc0b1db552e4926",
@@ -2229,7 +3153,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -2247,9 +3171,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "b93f00258d517395",
@@ -2266,7 +3189,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -2284,9 +3207,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "78c046512888bc65",
@@ -2303,9 +3225,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "28f0ef305f76ddbd",
@@ -2322,7 +3243,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -2340,7 +3261,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -2358,9 +3279,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "49f7c3226da07899",
@@ -2377,7 +3297,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -2395,9 +3315,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "89143363ff08b96a",
@@ -2414,7 +3333,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -2432,9 +3351,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "b981eea3420028b6",
@@ -2451,9 +3369,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "7aa9ee0eca6876e4",
@@ -2489,7 +3406,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -2507,7 +3424,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -2525,9 +3442,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "4682e919de63f6f5",
@@ -2544,9 +3460,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "cc632a5d8219c893",
@@ -2563,7 +3478,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -2581,7 +3496,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -2599,7 +3514,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -2617,9 +3532,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "31e63d0b031cabaa",
@@ -2636,9 +3550,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "44e79be73e2f04ec",
@@ -2655,9 +3568,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "0b36698f0b9a9bd7",
@@ -2693,9 +3605,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "52ba86529b85510f",
@@ -2712,7 +3623,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -2730,7 +3641,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -2748,7 +3659,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -2766,9 +3677,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "3899e3f6c809d818",
@@ -2785,9 +3695,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "f50c6c7d092e0df0",
@@ -2804,9 +3713,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "3153e20d5094407a",
@@ -2823,7 +3731,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -2841,7 +3749,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -2859,7 +3767,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -2877,7 +3785,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -2895,9 +3803,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "cd6c91ada2f8ca2f",
@@ -2914,9 +3821,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "4b74b5c472d87955",
@@ -2933,7 +3839,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -2951,9 +3857,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "ccbdb4ffd16d107e",
@@ -2970,7 +3875,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -2988,9 +3893,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "7945b019270cd6b9",
@@ -3007,9 +3911,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "e2aaa51f6fc6e53c",
@@ -3026,7 +3929,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -3044,7 +3947,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -3062,9 +3965,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "dfb77f75da4dabf1",
@@ -3081,7 +3983,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -3099,9 +4001,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "c5ecb5df7c023c15",
@@ -3118,9 +4019,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "51d272fcb03f17fd",
@@ -3137,9 +4037,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "f26fce5325f30996",
@@ -3156,7 +4055,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -3174,9 +4073,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "f7349e38faaec829",
@@ -3193,7 +4091,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -3211,7 +4109,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -3229,9 +4127,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "14b9bcad72287def",
@@ -3248,9 +4145,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "1947b99e302a327f",
@@ -3267,9 +4163,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "989b9d9a89189002",
@@ -3286,7 +4181,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -3304,7 +4199,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -3322,9 +4217,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "270df9cd0c2e11d6",
@@ -3341,7 +4235,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -3359,7 +4253,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -3377,9 +4271,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "e0fd9804a0f2494f",
@@ -3396,9 +4289,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "5ec57648c94cc673",
@@ -3415,7 +4307,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -3433,9 +4325,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "4ac08cdbdf0462ea",
@@ -3452,7 +4343,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -3470,9 +4361,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "9ae5e76446a143be",
@@ -3489,7 +4379,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -3507,9 +4397,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "ee8db17f01b3c204",
@@ -3526,9 +4415,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "61f8bf1a16e3e964",
@@ -3545,7 +4433,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -3563,7 +4451,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -3581,9 +4469,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "406edb8e8a61cd28",
@@ -3600,7 +4487,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -3618,7 +4505,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -3636,9 +4523,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "f19ee219a133cff7",
@@ -3655,7 +4541,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -3673,9 +4559,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "dad5aa825fdf50b0",
@@ -3692,9 +4577,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "9c662038df0cce7f",
@@ -3711,7 +4595,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -3729,9 +4613,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "bcfb2975a32ed706",
@@ -3748,7 +4631,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -3766,9 +4649,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "d1a93cd973696bff",
@@ -3785,7 +4667,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -3803,7 +4685,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -3821,9 +4703,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "9a4c0c50a319862d",
@@ -3840,7 +4721,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -3858,7 +4739,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -3876,9 +4757,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "756607ee5c4ee930",
@@ -3895,9 +4775,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "e6b3ceefb8cd2465",
@@ -3914,7 +4793,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -3932,7 +4811,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -3950,9 +4829,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "3a7c11fb197b16a1",
@@ -3969,7 +4847,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -3987,7 +4865,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -4005,9 +4883,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "3c7e665a8bfd5025",
@@ -4024,7 +4901,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -4042,7 +4919,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -4060,9 +4937,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "a1ebbf4ecdc6e66b",
@@ -4079,7 +4955,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -4097,7 +4973,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -4115,9 +4991,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "250d8ae3e0f061ec",
@@ -4134,9 +5009,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "d40d07f72601e105",
@@ -4153,7 +5027,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -4171,7 +5045,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -4189,9 +5063,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "bb95353e485b1ccb",
@@ -4208,9 +5081,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "0165a5b2d8548f1b",
@@ -4227,7 +5099,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -4245,7 +5117,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -4263,9 +5135,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "a46691fb932c5d9a",
@@ -4282,7 +5153,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -4300,7 +5171,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -4318,9 +5189,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "3818b304e372de6e",
@@ -4337,7 +5207,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -4355,9 +5225,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "ee45c03df02fe5a3",
@@ -4374,7 +5243,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -4392,7 +5261,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -4410,7 +5279,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -4428,9 +5297,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "adfb2e7df83ab81f",
@@ -4447,7 +5315,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -4465,9 +5333,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "6fdd88aa905600cd",
@@ -4484,7 +5351,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -4502,9 +5369,8 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "4b37d032c66d83b6",
@@ -4521,9 +5387,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "58f48054cd914e25",
@@ -4540,7 +5405,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -4558,7 +5423,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -4576,7 +5441,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -4594,7 +5459,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -4612,9 +5477,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "4da01ed72171d188",
@@ -4631,7 +5495,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -4649,7 +5513,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -4667,7 +5531,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -4685,9 +5549,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "eb5ffaf79735eaf3",
@@ -4704,7 +5567,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -4722,7 +5585,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -4740,7 +5603,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -4758,9 +5621,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "4d41931e944368ed",
@@ -4777,7 +5639,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -4795,7 +5657,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -4813,7 +5675,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -4831,7 +5693,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -4849,9 +5711,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "7e4b24a1a279dfd4",
@@ -4868,7 +5729,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -4886,7 +5747,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -4904,9 +5765,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "fe88df5af076c3f3",
@@ -4923,7 +5783,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -4941,7 +5801,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -4959,7 +5819,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -4977,9 +5837,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "cbbc94d8b05600ad",
@@ -4996,7 +5855,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5014,7 +5873,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5032,7 +5891,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5050,9 +5909,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "db215a7d61a745f7",
@@ -5069,7 +5927,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5087,7 +5945,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5105,7 +5963,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5123,9 +5981,8 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-01T13:06:20.259096+07:00",
-      "personallyTested": false,
-      "stale": true
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
+      "personallyTested": false
     },
     {
       "id": "0028b343b12800ac",
@@ -5142,7 +5999,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5160,7 +6017,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5178,7 +6035,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5196,7 +6053,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5214,7 +6071,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5232,7 +6089,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5250,7 +6107,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5268,7 +6125,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5286,7 +6143,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5304,7 +6161,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5322,7 +6179,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5340,7 +6197,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5358,7 +6215,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5376,7 +6233,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5394,7 +6251,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5412,7 +6269,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5430,7 +6287,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5448,7 +6305,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5466,7 +6323,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5484,7 +6341,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5502,7 +6359,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5520,7 +6377,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5538,7 +6395,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5556,7 +6413,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5574,7 +6431,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5592,7 +6449,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5610,7 +6467,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5628,7 +6485,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5646,7 +6503,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5664,7 +6521,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5682,7 +6539,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5700,7 +6557,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5718,7 +6575,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5736,7 +6593,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5754,7 +6611,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5772,7 +6629,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5790,7 +6647,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5808,7 +6665,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5826,7 +6683,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5844,7 +6701,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5862,7 +6719,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5880,7 +6737,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5898,7 +6755,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5916,7 +6773,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5934,7 +6791,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5952,7 +6809,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5970,7 +6827,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -5988,7 +6845,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -6006,7 +6863,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -6024,7 +6881,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -6042,7 +6899,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -6060,7 +6917,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -6078,7 +6935,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -6096,7 +6953,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -6114,7 +6971,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -6132,7 +6989,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -6150,7 +7007,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -6168,7 +7025,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -6186,7 +7043,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -6204,7 +7061,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -6222,7 +7079,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -6240,7 +7097,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     },
     {
@@ -6258,7 +7115,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-01T20:25:27.870241+07:00",
+      "checkedAt": "2026-11-02T05:02:24.337165+07:00",
       "personallyTested": false
     }
   ]
