@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T02:16:07.561472+07:00",
+  "updatedAt": "2026-11-22T13:49:02.815573+07:00",
   "timezone": "Asia/Bangkok",
   "horizonMonths": 12,
   "instagram": {
@@ -16,7 +16,7 @@
       "pagesChecked": 1,
       "eventsFound": 24,
       "errors": [],
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "rootSuccess": true
     },
     {
@@ -29,7 +29,7 @@
       "pagesChecked": 7,
       "eventsFound": 8,
       "errors": [],
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "rootSuccess": true
     },
     {
@@ -42,7 +42,7 @@
       "pagesChecked": 13,
       "eventsFound": 23,
       "errors": [],
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "rootSuccess": true
     },
     {
@@ -55,7 +55,7 @@
       "pagesChecked": 1,
       "eventsFound": 229,
       "errors": [],
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "rootSuccess": true
     },
     {
@@ -68,7 +68,7 @@
       "pagesChecked": 1,
       "eventsFound": 78,
       "errors": [],
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "rootSuccess": true
     },
     {
@@ -79,9 +79,9 @@
       "status": "ok",
       "coverage": "Dated booking schedule; rolling four-week discovery",
       "pagesChecked": 3,
-      "eventsFound": 30,
+      "eventsFound": 28,
       "errors": [],
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "rootSuccess": true
     },
     {
@@ -92,9 +92,9 @@
       "status": "ok",
       "coverage": "Published Koh Tao channel, including local studios and venues; rolling two-week discovery",
       "pagesChecked": 8,
-      "eventsFound": 34,
+      "eventsFound": 26,
       "errors": [],
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "rootSuccess": true
     },
     {
@@ -107,7 +107,7 @@
       "pagesChecked": 1,
       "eventsFound": 28,
       "errors": [],
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "rootSuccess": true
     },
     {
@@ -120,7 +120,7 @@
       "pagesChecked": 1,
       "eventsFound": 5,
       "errors": [],
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "rootSuccess": true
     },
     {
@@ -128,12 +128,21 @@
       "name": "Hii Festival · Official calendar",
       "url": "https://hiifestivalkohtao.com/",
       "kind": "organizer",
-      "status": "ok",
+      "status": "partial",
       "coverage": "Official festival feed and linked Eventpop calendar exports; disputed times are flagged",
       "pagesChecked": 3,
-      "eventsFound": 4,
-      "errors": [],
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "eventsFound": 2,
+      "errors": [
+        {
+          "url": "https://www.eventpop.me/event_details/174578/calendar.ics",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.eventpop.me/event_details/174611/calendar.ics",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "rootSuccess": true
     },
     {
@@ -143,68 +152,14 @@
       "kind": "calendar",
       "status": "ok",
       "coverage": "Dated Koh Tao event listings and original ticket links",
-      "pagesChecked": 13,
+      "pagesChecked": 12,
       "eventsFound": 11,
       "errors": [],
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "rootSuccess": true
     }
   ],
   "events": [
-    {
-      "id": "b93941f59d3a036e",
-      "title": "Meditation & Breathing",
-      "category": "wellness",
-      "start": "2026-11-22T08:00:00+07:00",
-      "end": "2026-11-22T08:50:00+07:00",
-      "dateOnly": false,
-      "location": "Blue Chitta, Koh Tao",
-      "summary": "Wellness session at Blue Chitta, Koh Tao.",
-      "url": "https://bluechitta.com/schedule/",
-      "sourceId": "blue-chitta",
-      "sourceName": "Blue Chitta · Classes & activities",
-      "sourceKind": "organizer",
-      "schedule": null,
-      "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
-      "personallyTested": false
-    },
-    {
-      "id": "ebfca4bf777395f1",
-      "title": "Full Primary Ashtanga",
-      "category": "wellness",
-      "start": "2026-11-22T09:30:00+07:00",
-      "end": "2026-11-22T11:00:00+07:00",
-      "dateOnly": false,
-      "location": "Blue Chitta, Koh Tao",
-      "summary": "Wellness session at Blue Chitta, Koh Tao.",
-      "url": "https://bluechitta.com/schedule/",
-      "sourceId": "blue-chitta",
-      "sourceName": "Blue Chitta · Classes & activities",
-      "sourceKind": "organizer",
-      "schedule": null,
-      "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
-      "personallyTested": false
-    },
-    {
-      "id": "ce197f00bb3916c3",
-      "title": "Vinyasa Yoga",
-      "category": "wellness",
-      "start": "2026-11-22T10:00:00+07:00",
-      "end": null,
-      "dateOnly": false,
-      "location": "The Studio @ Ocean Sound, Koh Tao",
-      "summary": "Wellness session at The Studio @ Ocean Sound, Koh Tao.",
-      "url": "https://todo.today/koh-tao/2026/11/22/vinyasa-yoga-1118",
-      "sourceId": "todo-today",
-      "sourceName": "Todo Today · Koh Tao",
-      "sourceKind": "calendar",
-      "schedule": null,
-      "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
-      "personallyTested": false
-    },
     {
       "id": "2f00c52996172724",
       "title": "Yin Yang",
@@ -220,7 +175,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -238,7 +193,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -256,7 +211,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": "18:00 is check-in time.",
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -274,7 +229,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -292,7 +247,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -310,7 +265,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -328,7 +283,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -346,7 +301,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -364,7 +319,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -382,7 +337,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": "18:00 is check-in time.",
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -400,7 +355,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -418,7 +373,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -436,7 +391,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -454,7 +409,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -472,7 +427,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -490,7 +445,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -508,7 +463,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -526,7 +481,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -544,7 +499,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -562,7 +517,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -580,7 +535,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -598,7 +553,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -616,7 +571,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -634,7 +589,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -652,7 +607,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -670,7 +625,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -688,7 +643,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -706,7 +661,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": "18:00 is check-in time.",
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -724,7 +679,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -742,7 +697,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -760,7 +715,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -778,7 +733,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -796,7 +751,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -814,7 +769,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -832,7 +787,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -850,7 +805,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -868,7 +823,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -886,7 +841,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -904,7 +859,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -922,7 +877,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -940,7 +895,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -958,7 +913,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -976,7 +931,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -994,7 +949,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1012,7 +967,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1030,7 +985,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1048,7 +1003,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": "18:00 is check-in time.",
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1066,7 +1021,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1084,7 +1039,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1102,7 +1057,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1120,7 +1075,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1138,7 +1093,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1156,7 +1111,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1174,7 +1129,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1192,7 +1147,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1210,7 +1165,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1228,7 +1183,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1246,7 +1201,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1264,7 +1219,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1282,7 +1237,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1300,7 +1255,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1318,7 +1273,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1336,7 +1291,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1354,7 +1309,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1372,7 +1327,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1390,7 +1345,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": "18:00 is check-in time.",
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1408,7 +1363,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1426,7 +1381,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1444,7 +1399,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": "18:00 is check-in time.",
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1462,7 +1417,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1480,7 +1435,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1498,7 +1453,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1516,7 +1471,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1534,7 +1489,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": "18:00 is check-in time.",
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1552,7 +1507,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1570,7 +1525,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1588,7 +1543,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1606,7 +1561,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": "18:00 is check-in time.",
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1624,7 +1579,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1642,7 +1597,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1660,7 +1615,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1678,7 +1633,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1696,7 +1651,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1714,7 +1669,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": "18:00 is check-in time.",
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1732,7 +1687,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1750,7 +1705,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": "18:00 is check-in time.",
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1768,7 +1723,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1786,7 +1741,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1804,7 +1759,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1822,7 +1777,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1840,7 +1795,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": "18:00 is check-in time.",
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1858,7 +1813,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1876,7 +1831,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1894,7 +1849,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1912,7 +1867,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": "18:00 is check-in time.",
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1930,7 +1885,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1948,7 +1903,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1966,7 +1921,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -1984,7 +1939,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2002,7 +1957,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2020,7 +1975,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": "18:00 is check-in time.",
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2038,7 +1993,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": "18:00 is check-in time.",
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2056,7 +2011,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2074,7 +2029,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2092,7 +2047,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2110,7 +2065,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2128,7 +2083,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": "18:00 is check-in time.",
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2146,7 +2101,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2164,7 +2119,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2182,7 +2137,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2200,7 +2155,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": "18:00 is check-in time.",
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2218,7 +2173,7 @@
       "sourceKind": "organizer",
       "schedule": "weekly-program",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2236,7 +2191,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2254,7 +2209,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2272,7 +2227,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2291,7 +2246,8 @@
       "schedule": null,
       "note": null,
       "checkedAt": "2026-11-22T02:16:07.561472+07:00",
-      "personallyTested": false
+      "personallyTested": false,
+      "stale": true
     },
     {
       "id": "1f95d652ea417192",
@@ -2308,7 +2264,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2326,7 +2282,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2344,7 +2300,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2362,7 +2318,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2380,7 +2336,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2398,7 +2354,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2416,7 +2372,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2434,7 +2390,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2452,7 +2408,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2470,7 +2426,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2489,7 +2445,8 @@
       "schedule": null,
       "note": null,
       "checkedAt": "2026-11-22T02:16:07.561472+07:00",
-      "personallyTested": false
+      "personallyTested": false,
+      "stale": true
     },
     {
       "id": "8ed7f58774ea47c8",
@@ -2506,7 +2463,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2524,7 +2481,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2542,7 +2499,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2560,7 +2517,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2578,7 +2535,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2596,7 +2553,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2614,7 +2571,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2632,7 +2589,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2650,7 +2607,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2668,7 +2625,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2686,7 +2643,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2704,7 +2661,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2722,7 +2679,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2740,7 +2697,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2758,7 +2715,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2776,7 +2733,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2794,7 +2751,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2812,7 +2769,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2830,7 +2787,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2848,7 +2805,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2866,7 +2823,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2884,7 +2841,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2902,7 +2859,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2920,7 +2877,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2938,7 +2895,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2956,7 +2913,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2974,7 +2931,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -2992,7 +2949,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3010,7 +2967,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3028,7 +2985,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3046,7 +3003,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3064,7 +3021,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3082,7 +3039,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3100,7 +3057,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3118,7 +3075,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3136,7 +3093,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3154,7 +3111,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3172,7 +3129,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3190,7 +3147,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3208,7 +3165,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3226,7 +3183,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3244,7 +3201,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3262,7 +3219,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3280,7 +3237,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3298,7 +3255,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3316,7 +3273,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3334,7 +3291,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3352,7 +3309,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3370,7 +3327,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3388,7 +3345,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3406,7 +3363,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3424,7 +3381,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3442,7 +3399,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3460,7 +3417,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3478,7 +3435,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3496,7 +3453,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3514,7 +3471,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3532,7 +3489,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3550,7 +3507,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3568,7 +3525,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3586,7 +3543,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3604,7 +3561,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3622,7 +3579,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3640,7 +3597,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3658,7 +3615,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3676,7 +3633,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3694,7 +3651,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3712,7 +3669,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3730,7 +3687,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3748,7 +3705,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3766,7 +3723,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3784,7 +3741,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3802,7 +3759,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3820,7 +3777,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3838,7 +3795,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3856,7 +3813,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3874,7 +3831,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3892,7 +3849,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3910,7 +3867,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3928,7 +3885,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3946,7 +3903,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3964,7 +3921,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -3982,7 +3939,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4000,7 +3957,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4018,7 +3975,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4036,7 +3993,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4054,7 +4011,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4072,7 +4029,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4090,7 +4047,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4108,7 +4065,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4126,7 +4083,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4144,7 +4101,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4162,7 +4119,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4180,7 +4137,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4198,7 +4155,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4216,7 +4173,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4234,7 +4191,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4252,7 +4209,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4270,7 +4227,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4288,7 +4245,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4306,7 +4263,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4324,7 +4281,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4342,7 +4299,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4360,7 +4317,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4378,7 +4335,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4396,7 +4353,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4414,7 +4371,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4432,7 +4389,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4450,7 +4407,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4468,7 +4425,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4486,7 +4443,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4504,7 +4461,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4522,7 +4479,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4540,7 +4497,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4558,7 +4515,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4576,7 +4533,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4594,7 +4551,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4612,7 +4569,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4630,7 +4587,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4648,7 +4605,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4666,7 +4623,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4684,7 +4641,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4702,7 +4659,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4720,7 +4677,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4738,7 +4695,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4756,7 +4713,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4774,7 +4731,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4792,7 +4749,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4810,7 +4767,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4828,7 +4785,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4846,7 +4803,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4864,7 +4821,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4882,7 +4839,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4900,7 +4857,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4918,7 +4875,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4936,7 +4893,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4954,7 +4911,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4972,7 +4929,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -4990,7 +4947,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5008,7 +4965,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5026,7 +4983,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5044,7 +5001,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5062,7 +5019,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5080,7 +5037,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5098,7 +5055,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5116,7 +5073,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5134,7 +5091,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5152,7 +5109,7 @@
       "sourceKind": "organizer",
       "schedule": "published-recurrence",
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5170,7 +5127,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5188,7 +5145,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5206,7 +5163,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5224,7 +5181,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5242,7 +5199,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5260,7 +5217,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5278,7 +5235,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5296,7 +5253,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5314,7 +5271,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5332,7 +5289,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5350,7 +5307,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5368,7 +5325,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5386,7 +5343,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5404,7 +5361,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5422,7 +5379,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5440,7 +5397,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5458,7 +5415,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5476,7 +5433,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5494,7 +5451,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5512,7 +5469,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5530,7 +5487,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5548,7 +5505,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5566,7 +5523,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5584,7 +5541,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5602,7 +5559,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5620,7 +5577,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5638,7 +5595,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5656,7 +5613,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5674,7 +5631,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5692,7 +5649,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5710,7 +5667,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5728,7 +5685,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5746,7 +5703,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5764,7 +5721,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5782,7 +5739,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5800,7 +5757,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5818,7 +5775,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5836,7 +5793,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5854,7 +5811,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5872,7 +5829,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5890,7 +5847,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5908,7 +5865,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5926,7 +5883,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5944,7 +5901,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5962,7 +5919,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5980,7 +5937,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -5998,7 +5955,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -6016,7 +5973,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -6034,7 +5991,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -6052,7 +6009,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -6070,7 +6027,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -6088,7 +6045,7 @@
       "sourceKind": "organizer",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -6106,7 +6063,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -6124,7 +6081,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -6142,7 +6099,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -6160,7 +6117,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -6178,7 +6135,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -6196,7 +6153,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -6214,7 +6171,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -6232,7 +6189,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -6250,7 +6207,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -6268,7 +6225,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -6286,7 +6243,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -6304,7 +6261,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -6322,7 +6279,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -6340,7 +6297,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -6358,7 +6315,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -6376,7 +6333,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     },
     {
@@ -6394,7 +6351,7 @@
       "sourceKind": "calendar",
       "schedule": null,
       "note": null,
-      "checkedAt": "2026-11-22T02:16:07.561472+07:00",
+      "checkedAt": "2026-11-22T13:49:02.815573+07:00",
       "personallyTested": false
     }
   ]
